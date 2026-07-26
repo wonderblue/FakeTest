@@ -1,0 +1,1163 @@
+{
+  "metadata": {
+    "collected_at": "2026-07-26",
+    "description": "Indexed public Claude.ai shared conversations and artifacts from web search and Common Crawl",
+    "search_queries": [
+      "site:claude.ai/share",
+      "site:claude.ai/public/artifacts"
+    ],
+    "data_sources": [
+      "Brave Search",
+      "DuckDuckGo (ddgs)",
+      "Common Crawl",
+      "Direct page metadata"
+    ],
+    "counts": {
+      "total_shares": 41,
+      "total_artifacts": 8,
+      "shares_with_titles": 5,
+      "artifacts_with_titles": 8
+    },
+    "notes": [
+      "Claude share/artifact pages are client-side rendered; titles often require JavaScript",
+      "Most indexed pages use generic og:title ('Claude' or 'Claude Artifact')",
+      "Share links expire after a period (typically 7+ days for conversations)",
+      "Public artifacts are interactive apps/documents created in Claude"
+    ]
+  },
+  "content_types": {
+    "shared_conversations": {
+      "url_pattern": "https://claude.ai/share/{uuid}",
+      "description": "Publicly shared Claude chat conversations",
+      "id_format": "UUID v4"
+    },
+    "public_artifacts": {
+      "url_pattern": "https://claude.ai/public/artifacts/{uuid}",
+      "description": "Publicly shared Claude Artifacts (interactive apps, documents, visualizations)",
+      "id_format": "UUID v4"
+    }
+  },
+  "shares": [
+    {
+      "id": "153d8eb8-82dd-4f8c-a3d0-6c23b4dc21a2",
+      "url": "https://claude.ai/share/153d8eb8-82dd-4f8c-a3d0-6c23b4dc21a2",
+      "title": "Claude",
+      "snippet": "Claude is Anthropic's AI, built for problem solvers. Tackle complex challenges, analyze data, write code, and think through your hardest work.",
+      "source": "ddgs_search",
+      "content_type": "shared_conversation",
+      "found_via_queries": [
+        "site:claude.ai/share writing"
+      ],
+      "categories": [
+        "coding",
+        "ai/ml",
+        "writing",
+        "data",
+        "design"
+      ]
+    },
+    {
+      "id": "1627f1f3-4b07-4eb3-af24-5ac2da96b712",
+      "url": "https://claude.ai/share/1627f1f3-4b07-4eb3-af24-5ac2da96b712",
+      "source": "brave_search",
+      "title": "Claude",
+      "description": "Shared via Claude, an AI assistant from Anthropic",
+      "categories": [
+        "ai/ml"
+      ],
+      "content_type": "shared_conversation",
+      "snippet": "Shared via Claude, an AI assistant from Anthropic",
+      "found_via_queries": [
+        "site:claude.ai/share"
+      ]
+    },
+    {
+      "id": "17656d59-6f52-471e-8aeb-6abbe1464471",
+      "url": "https://claude.ai/share/17656d59-6f52-471e-8aeb-6abbe1464471",
+      "title": "Claude",
+      "snippet": "Claude is Anthropic's AI, built for problem solvers. Tackle complex challenges, analyze data, write code, and think through your hardest work.",
+      "source": "ddgs_search",
+      "content_type": "shared_conversation",
+      "found_via_queries": [
+        "site:claude.ai/share business strategy"
+      ],
+      "categories": [
+        "coding",
+        "ai/ml",
+        "writing",
+        "data",
+        "design"
+      ]
+    },
+    {
+      "id": "97bde411-20d4-4549-a34f-27954a5ab564",
+      "url": "https://claude.ai/share/97bde411-20d4-4549-a34f-27954a5ab564",
+      "title": "Claude",
+      "snippet": "Claude is Anthropic's AI, built for problem solvers. Tackle complex challenges, analyze data, write code, and think through your hardest work.",
+      "source": "ddgs_search",
+      "content_type": "shared_conversation",
+      "found_via_queries": [
+        "site:claude.ai/share prompt engineering"
+      ],
+      "categories": [
+        "coding",
+        "ai/ml",
+        "writing",
+        "data",
+        "design"
+      ]
+    },
+    {
+      "id": "eb5d7782-0093-4bec-b86d-03c23dfbb1b1",
+      "url": "https://claude.ai/share/eb5d7782-0093-4bec-b86d-03c23dfbb1b1",
+      "source": "brave_search",
+      "title": "Claude AI",
+      "description": "Shared via Claude, an AI assistant from Anthropic",
+      "categories": [
+        "ai/ml"
+      ],
+      "content_type": "shared_conversation",
+      "snippet": "Shared via Claude, an AI assistant from Anthropic",
+      "found_via_queries": [
+        "site:claude.ai/share"
+      ]
+    },
+    {
+      "id": "05c0f205-b4a2-435e-a33c-cfeb3ce2de8e",
+      "url": "https://claude.ai/share/05c0f205-b4a2-435e-a33c-cfeb3ce2de8e",
+      "source": "brave_search",
+      "title": null,
+      "description": "Shared via Claude, an AI assistant from Anthropic",
+      "categories": [
+        "coding",
+        "ai/ml",
+        "writing",
+        "data",
+        "design"
+      ],
+      "content_type": "shared_conversation",
+      "snippet": "Claude is Anthropic's AI, built for problem solvers. Tackle complex challenges, analyze data, write code, and think through your hardest work."
+    },
+    {
+      "id": "0d877a61-9e30-451c-9f77-6ae112255716",
+      "url": "https://claude.ai/share/0d877a61-9e30-451c-9f77-6ae112255716",
+      "source": "brave_search",
+      "title": null,
+      "description": "Shared via Claude, an AI assistant from Anthropic",
+      "categories": [
+        "ai/ml"
+      ],
+      "content_type": "shared_conversation",
+      "snippet": "Shared via Claude, an AI assistant from Anthropic",
+      "found_via_queries": [
+        "site:claude.ai/share"
+      ]
+    },
+    {
+      "id": "1fb6a487-fa8b-4dcf-b773-c5a92aab3ced",
+      "url": "https://claude.ai/share/1fb6a487-fa8b-4dcf-b773-c5a92aab3ced",
+      "source": "brave_search",
+      "title": null,
+      "description": "Shared via Claude, an AI assistant from Anthropic",
+      "categories": [
+        "coding",
+        "ai/ml",
+        "writing",
+        "data",
+        "design"
+      ],
+      "content_type": "shared_conversation",
+      "snippet": "Claude is Anthropic's AI, built for problem solvers. Tackle complex challenges, analyze data, write code, and think through your hardest work."
+    },
+    {
+      "id": "25c295a6-02e4-4cbf-836f-689fd8f45a72",
+      "url": "https://claude.ai/share/25c295a6-02e4-4cbf-836f-689fd8f45a72",
+      "source": "brave_search",
+      "title": null,
+      "description": "Shared via Claude, an AI assistant from Anthropic",
+      "categories": [
+        "ai/ml"
+      ],
+      "content_type": "shared_conversation",
+      "snippet": "Shared via Claude, an AI assistant from Anthropic",
+      "found_via_queries": [
+        "site:claude.ai/share"
+      ]
+    },
+    {
+      "id": "29baa1f6-0cb2-4d24-9cea-873fd4af4d63",
+      "url": "https://claude.ai/share/29baa1f6-0cb2-4d24-9cea-873fd4af4d63",
+      "title": null,
+      "snippet": "Claude is Anthropic's AI, built for problem solvers. Tackle complex challenges, analyze data, write code, and think through your hardest work.",
+      "source": "ddgs_search",
+      "content_type": "shared_conversation",
+      "found_via_queries": [
+        "site:claude.ai/share prompt engineering"
+      ],
+      "categories": [
+        "coding",
+        "ai/ml",
+        "writing",
+        "data",
+        "design"
+      ]
+    },
+    {
+      "id": "2a78cd7b-4bd0-48b4-b160-1652ba98334a",
+      "url": "https://claude.ai/share/2a78cd7b-4bd0-48b4-b160-1652ba98334a",
+      "source": "brave_search",
+      "title": null,
+      "description": "Shared via Claude, an AI assistant from Anthropic",
+      "categories": [
+        "coding",
+        "ai/ml",
+        "writing",
+        "data",
+        "design"
+      ],
+      "content_type": "shared_conversation",
+      "snippet": "Claude is Anthropic's AI, built for problem solvers. Tackle complex challenges, analyze data, write code, and think through your hardest work."
+    },
+    {
+      "id": "2e01ad60-ca38-4e14-ab60-74eaa45b2fbd",
+      "url": "https://claude.ai/share/2e01ad60-ca38-4e14-ab60-74eaa45b2fbd",
+      "source": "brave_search",
+      "title": null,
+      "description": "Shared via Claude, an AI assistant from Anthropic",
+      "categories": [
+        "ai/ml"
+      ],
+      "content_type": "shared_conversation"
+    },
+    {
+      "id": "33dd4a49-be99-4c56-872f-09ea030376ed",
+      "url": "https://claude.ai/share/33dd4a49-be99-4c56-872f-09ea030376ed",
+      "source": "brave_search",
+      "title": null,
+      "description": "Shared via Claude, an AI assistant from Anthropic",
+      "categories": [
+        "ai/ml"
+      ],
+      "content_type": "shared_conversation",
+      "snippet": "Shared via Claude, an AI assistant from Anthropic",
+      "found_via_queries": [
+        "site:claude.ai/share"
+      ]
+    },
+    {
+      "id": "424b5181-0e09-4685-8f68-b58bfb4fe294",
+      "url": "https://claude.ai/share/424b5181-0e09-4685-8f68-b58bfb4fe294",
+      "source": "brave_search",
+      "title": null,
+      "description": "Shared via Claude, an AI assistant from Anthropic",
+      "categories": [
+        "ai/ml"
+      ],
+      "content_type": "shared_conversation",
+      "snippet": "Shared via Claude, an AI assistant from Anthropic",
+      "found_via_queries": [
+        "site:claude.ai/share"
+      ]
+    },
+    {
+      "id": "46d3a76c-a901-4a33-9e08-cd817810f8bf",
+      "url": "https://claude.ai/share/46d3a76c-a901-4a33-9e08-cd817810f8bf",
+      "title": null,
+      "snippet": "Claude is Anthropic's AI, built for problem solvers. Tackle complex challenges, analyze data, write code, and think through your hardest work.",
+      "source": "ddgs_search",
+      "content_type": "shared_conversation",
+      "found_via_queries": [
+        "site:claude.ai/share prompt engineering"
+      ],
+      "categories": [
+        "coding",
+        "ai/ml",
+        "writing",
+        "data",
+        "design"
+      ]
+    },
+    {
+      "id": "4eb8d514-dc4c-4201-9e51-56ca79deee8c",
+      "url": "https://claude.ai/share/4eb8d514-dc4c-4201-9e51-56ca79deee8c",
+      "source": "brave_search",
+      "title": null,
+      "description": "Shared via Claude, an AI assistant from Anthropic",
+      "categories": [
+        "coding",
+        "ai/ml",
+        "writing",
+        "data",
+        "design"
+      ],
+      "content_type": "shared_conversation",
+      "snippet": "Claude is Anthropic's AI, built for problem solvers. Tackle complex challenges, analyze data, write code, and think through your hardest work."
+    },
+    {
+      "id": "501319d0-1b49-4eae-9996-9108d85fbaff",
+      "url": "https://claude.ai/share/501319d0-1b49-4eae-9996-9108d85fbaff",
+      "source": "brave_search",
+      "title": null,
+      "description": "Shared via Claude, an AI assistant from Anthropic",
+      "categories": [
+        "coding",
+        "ai/ml",
+        "writing",
+        "data",
+        "design"
+      ],
+      "content_type": "shared_conversation",
+      "snippet": "Claude is Anthropic's AI, built for problem solvers. Tackle complex challenges, analyze data, write code, and think through your hardest work."
+    },
+    {
+      "id": "57bf9d7c-ff3c-4cf0-ae6b-29f4c521d9c1",
+      "url": "https://claude.ai/share/57bf9d7c-ff3c-4cf0-ae6b-29f4c521d9c1",
+      "title": null,
+      "snippet": "Claude is Anthropic's AI, built for problem solvers. Tackle complex challenges, analyze data, write code, and think through your hardest work.",
+      "source": "ddgs_search",
+      "content_type": "shared_conversation",
+      "found_via_queries": [
+        "site:claude.ai/share prompt engineering"
+      ],
+      "categories": [
+        "coding",
+        "ai/ml",
+        "writing",
+        "data",
+        "design"
+      ]
+    },
+    {
+      "id": "5df888fd-5087-413f-b93e-1c5cd86da202",
+      "url": "https://claude.ai/share/5df888fd-5087-413f-b93e-1c5cd86da202",
+      "source": "brave_search",
+      "title": null,
+      "description": "Shared via Claude, an AI assistant from Anthropic",
+      "categories": [
+        "coding",
+        "ai/ml",
+        "writing",
+        "data",
+        "design"
+      ],
+      "content_type": "shared_conversation",
+      "snippet": "Claude is Anthropic's AI, built for problem solvers. Tackle complex challenges, analyze data, write code, and think through your hardest work."
+    },
+    {
+      "id": "5e861ecb-0b37-4988-9799-9a912155c4d4",
+      "url": "https://claude.ai/share/5e861ecb-0b37-4988-9799-9a912155c4d4",
+      "title": null,
+      "snippet": "Claude is Anthropic's AI, built for problem solvers. Tackle complex challenges, analyze data, write code, and think through your hardest work.",
+      "source": "ddgs_search",
+      "content_type": "shared_conversation",
+      "found_via_queries": [
+        "site:claude.ai/share prompt engineering"
+      ],
+      "categories": [
+        "coding",
+        "ai/ml",
+        "writing",
+        "data",
+        "design"
+      ]
+    },
+    {
+      "id": "79006cbb-e143-4c25-9016-f89ece45e9be",
+      "url": "https://claude.ai/share/79006cbb-e143-4c25-9016-f89ece45e9be",
+      "source": "brave_search",
+      "title": null,
+      "description": "Shared via Claude, an AI assistant from Anthropic",
+      "categories": [
+        "ai/ml"
+      ],
+      "content_type": "shared_conversation",
+      "snippet": "Shared via Claude, an AI assistant from Anthropic",
+      "found_via_queries": [
+        "site:claude.ai/share"
+      ]
+    },
+    {
+      "id": "805ee3e5-eb74-43b6-8036-03615b303f6d",
+      "url": "https://claude.ai/share/805ee3e5-eb74-43b6-8036-03615b303f6d",
+      "source": "brave_search",
+      "title": null,
+      "description": "Shared via Claude, an AI assistant from Anthropic",
+      "categories": [
+        "ai/ml"
+      ],
+      "content_type": "shared_conversation",
+      "snippet": "Shared via Claude, an AI assistant from Anthropic",
+      "found_via_queries": [
+        "site:claude.ai/share"
+      ]
+    },
+    {
+      "id": "8383747a-aaf1-4f6c-a516-0e839f46a698",
+      "url": "https://claude.ai/share/8383747a-aaf1-4f6c-a516-0e839f46a698",
+      "source": "brave_search",
+      "title": null,
+      "description": "Shared via Claude, an AI assistant from Anthropic",
+      "categories": [
+        "ai/ml"
+      ],
+      "content_type": "shared_conversation",
+      "snippet": "Shared via Claude, an AI assistant from Anthropic",
+      "found_via_queries": [
+        "site:claude.ai/share"
+      ]
+    },
+    {
+      "id": "86b73f06-af42-4e85-96ce-f6f74a224ca8",
+      "url": "https://claude.ai/share/86b73f06-af42-4e85-96ce-f6f74a224ca8",
+      "indexed_at": "20250217074742",
+      "status": "200",
+      "source": "common_crawl",
+      "categories": [
+        "uncategorized"
+      ],
+      "content_type": "shared_conversation"
+    },
+    {
+      "id": "992fc340-08a2-48d2-9337-6fd5de744a23",
+      "url": "https://claude.ai/share/992fc340-08a2-48d2-9337-6fd5de744a23",
+      "source": "brave_search",
+      "title": null,
+      "description": "Shared via Claude, an AI assistant from Anthropic",
+      "categories": [
+        "ai/ml"
+      ],
+      "content_type": "shared_conversation",
+      "snippet": "Shared via Claude, an AI assistant from Anthropic",
+      "found_via_queries": [
+        "site:claude.ai/share"
+      ]
+    },
+    {
+      "id": "9a5ff6bd-f0d6-470f-9775-410286030efb",
+      "url": "https://claude.ai/share/9a5ff6bd-f0d6-470f-9775-410286030efb",
+      "indexed_at": "20241108054307",
+      "status": "200",
+      "source": "common_crawl",
+      "categories": [
+        "uncategorized"
+      ],
+      "content_type": "shared_conversation"
+    },
+    {
+      "id": "a07b058b-ec00-4bb7-ac14-aad32585ef08",
+      "url": "https://claude.ai/share/a07b058b-ec00-4bb7-ac14-aad32585ef08",
+      "title": null,
+      "snippet": "Claude is Anthropic's AI, built for problem solvers. Tackle complex challenges, analyze data, write code, and think through your hardest work.",
+      "source": "ddgs_search",
+      "content_type": "shared_conversation",
+      "found_via_queries": [
+        "site:claude.ai/share coding tutorial"
+      ],
+      "categories": [
+        "coding",
+        "ai/ml",
+        "writing",
+        "data",
+        "design"
+      ]
+    },
+    {
+      "id": "aa625c33-c2fd-4df0-8d1b-3b29ae854073",
+      "url": "https://claude.ai/share/aa625c33-c2fd-4df0-8d1b-3b29ae854073",
+      "source": "brave_search",
+      "title": null,
+      "description": "Shared via Claude, an AI assistant from Anthropic",
+      "categories": [
+        "ai/ml"
+      ],
+      "content_type": "shared_conversation",
+      "snippet": "Shared via Claude, an AI assistant from Anthropic",
+      "found_via_queries": [
+        "site:claude.ai/share"
+      ]
+    },
+    {
+      "id": "ace70c68-5055-4fbe-8c0c-feea51472792",
+      "url": "https://claude.ai/share/ace70c68-5055-4fbe-8c0c-feea51472792",
+      "title": null,
+      "snippet": "Claude is Anthropic's AI, built for problem solvers. Tackle complex challenges, analyze data, write code, and think through your hardest work.",
+      "source": "ddgs_search",
+      "content_type": "shared_conversation",
+      "found_via_queries": [
+        "site:claude.ai/share coding tutorial"
+      ],
+      "categories": [
+        "coding",
+        "ai/ml",
+        "writing",
+        "data",
+        "design"
+      ]
+    },
+    {
+      "id": "b76ffb8c-8a9d-43fb-b02d-0990e2e2fc7c",
+      "url": "https://claude.ai/share/b76ffb8c-8a9d-43fb-b02d-0990e2e2fc7c",
+      "source": "brave_search",
+      "title": null,
+      "description": "Shared via Claude, an AI assistant from Anthropic",
+      "categories": [
+        "ai/ml"
+      ],
+      "content_type": "shared_conversation",
+      "snippet": "Shared via Claude, an AI assistant from Anthropic",
+      "found_via_queries": [
+        "site:claude.ai/share"
+      ]
+    },
+    {
+      "id": "b78a3cc7-6e9b-4cc4-b85c-a3ad7d8c219b",
+      "url": "https://claude.ai/share/b78a3cc7-6e9b-4cc4-b85c-a3ad7d8c219b",
+      "source": "brave_search",
+      "title": null,
+      "description": "Shared via Claude, an AI assistant from Anthropic",
+      "categories": [
+        "ai/ml"
+      ],
+      "content_type": "shared_conversation",
+      "snippet": "Shared via Claude, an AI assistant from Anthropic",
+      "found_via_queries": [
+        "site:claude.ai/share"
+      ]
+    },
+    {
+      "id": "bd9f2f13-3fa2-488c-9fd7-ce3a0f71539e",
+      "url": "https://claude.ai/share/bd9f2f13-3fa2-488c-9fd7-ce3a0f71539e",
+      "title": null,
+      "snippet": "Claude is Anthropic's AI, built for problem solvers. Tackle complex challenges, analyze data, write code, and think through your hardest work.",
+      "source": "ddgs_search",
+      "content_type": "shared_conversation",
+      "found_via_queries": [
+        "site:claude.ai/share prompt engineering"
+      ],
+      "categories": [
+        "coding",
+        "ai/ml",
+        "writing",
+        "data",
+        "design"
+      ]
+    },
+    {
+      "id": "c4e74f6a-8a8d-4d3b-a3b1-37aeb1253227",
+      "url": "https://claude.ai/share/c4e74f6a-8a8d-4d3b-a3b1-37aeb1253227",
+      "source": "brave_search",
+      "title": null,
+      "description": "Shared via Claude, an AI assistant from Anthropic",
+      "categories": [
+        "ai/ml"
+      ],
+      "content_type": "shared_conversation",
+      "snippet": "Shared via Claude, an AI assistant from Anthropic",
+      "found_via_queries": [
+        "site:claude.ai/share"
+      ]
+    },
+    {
+      "id": "ca98c89f-bc76-4398-b856-415c8385c22c",
+      "url": "https://claude.ai/share/ca98c89f-bc76-4398-b856-415c8385c22c",
+      "title": null,
+      "snippet": "Claude is Anthropic's AI, built for problem solvers. Tackle complex challenges, analyze data, write code, and think through your hardest work.",
+      "source": "ddgs_search",
+      "content_type": "shared_conversation",
+      "found_via_queries": [
+        "site:claude.ai/share prompt engineering"
+      ],
+      "categories": [
+        "coding",
+        "ai/ml",
+        "writing",
+        "data",
+        "design"
+      ]
+    },
+    {
+      "id": "cc32d405-cb53-4e52-a1a0-9b4df4e528ac",
+      "url": "https://claude.ai/share/cc32d405-cb53-4e52-a1a0-9b4df4e528ac",
+      "source": "brave_search",
+      "title": null,
+      "description": "Shared via Claude, an AI assistant from Anthropic",
+      "categories": [
+        "ai/ml"
+      ],
+      "content_type": "shared_conversation"
+    },
+    {
+      "id": "cf369134-45de-4516-9b4b-42e07ee26aef",
+      "url": "https://claude.ai/share/cf369134-45de-4516-9b4b-42e07ee26aef",
+      "source": "brave_search",
+      "title": null,
+      "description": "Shared via Claude, an AI assistant from Anthropic",
+      "categories": [
+        "ai/ml"
+      ],
+      "content_type": "shared_conversation",
+      "snippet": "Shared via Claude, an AI assistant from Anthropic",
+      "found_via_queries": [
+        "site:claude.ai/share"
+      ]
+    },
+    {
+      "id": "d05d1b17-1229-433b-bf91-990d43405ef9",
+      "url": "https://claude.ai/share/d05d1b17-1229-433b-bf91-990d43405ef9",
+      "title": null,
+      "snippet": "Claude is Anthropic's AI, built for problem solvers. Tackle complex challenges, analyze data, write code, and think through your hardest work.",
+      "source": "ddgs_search",
+      "content_type": "shared_conversation",
+      "found_via_queries": [
+        "site:claude.ai/share React"
+      ],
+      "categories": [
+        "coding",
+        "ai/ml",
+        "writing",
+        "data",
+        "design"
+      ]
+    },
+    {
+      "id": "dc9399d1-fb2c-4958-9486-11bebb55746f",
+      "url": "https://claude.ai/share/dc9399d1-fb2c-4958-9486-11bebb55746f",
+      "source": "brave_search",
+      "title": null,
+      "description": "Shared via Claude, an AI assistant from Anthropic",
+      "categories": [
+        "ai/ml"
+      ],
+      "content_type": "shared_conversation",
+      "snippet": "Shared via Claude, an AI assistant from Anthropic",
+      "found_via_queries": [
+        "site:claude.ai/share"
+      ]
+    },
+    {
+      "id": "e7fa45cc-396a-4771-97be-74d606ec3beb",
+      "url": "https://claude.ai/share/e7fa45cc-396a-4771-97be-74d606ec3beb",
+      "source": "brave_search",
+      "title": null,
+      "description": "Shared via Claude, an AI assistant from Anthropic",
+      "categories": [
+        "coding",
+        "ai/ml",
+        "writing",
+        "data",
+        "design"
+      ],
+      "content_type": "shared_conversation",
+      "snippet": "Claude is Anthropic's AI, built for problem solvers. Tackle complex challenges, analyze data, write code, and think through your hardest work."
+    },
+    {
+      "id": "ec8b0563-d80b-4882-82e8-5504e3229a17",
+      "url": "https://claude.ai/share/ec8b0563-d80b-4882-82e8-5504e3229a17",
+      "source": "brave_search",
+      "title": null,
+      "description": "Shared via Claude, an AI assistant from Anthropic",
+      "categories": [
+        "ai/ml"
+      ],
+      "content_type": "shared_conversation",
+      "snippet": "Shared via Claude, an AI assistant from Anthropic",
+      "found_via_queries": [
+        "site:claude.ai/share"
+      ]
+    },
+    {
+      "id": "f09065af-01f6-47b3-b8ec-aa228327450b",
+      "url": "https://claude.ai/share/f09065af-01f6-47b3-b8ec-aa228327450b",
+      "source": "brave_search",
+      "title": null,
+      "description": "Shared via Claude, an AI assistant from Anthropic",
+      "categories": [
+        "coding",
+        "ai/ml",
+        "writing",
+        "data",
+        "design"
+      ],
+      "content_type": "shared_conversation",
+      "snippet": "Claude is Anthropic's AI, built for problem solvers. Tackle complex challenges, analyze data, write code, and think through your hardest work."
+    }
+  ],
+  "artifacts": [
+    {
+      "id": "075afcb7-e682-49bb-8a89-ed2a3b1f01b4",
+      "url": "https://claude.ai/public/artifacts/075afcb7-e682-49bb-8a89-ed2a3b1f01b4",
+      "source": "brave_search",
+      "title": "AI Tools Index - Classy Directory",
+      "description": "Try out Artifacts created by Claude users",
+      "categories": [
+        "ai/ml",
+        "data",
+        "design",
+        "productivity"
+      ],
+      "content_type": "public_artifact",
+      "snippet": "Discover 30+ top AI tools including Claude, ChatGPT, Gemini & specialized LLMs in one searchable directory. Built with Claude AI.",
+      "found_via_queries": [
+        "site:claude.ai/public/artifacts"
+      ]
+    },
+    {
+      "id": "ec730044-bbf2-4914-9f6b-8cd8497c0b5d",
+      "url": "https://claude.ai/public/artifacts/ec730044-bbf2-4914-9f6b-8cd8497c0b5d",
+      "title": "AI en EdTech - Presentaci\u00f3n Interactiva",
+      "snippet": "Loading \u00b7 Content is user-generated and unverified \u00b7 Customize \u00b7 AI en EdTech - Presentaci\u00f3n Interactiva | Claude",
+      "source": "ddgs_search",
+      "content_type": "public_artifact",
+      "found_via_queries": [
+        "site:claude.ai/public/artifacts"
+      ],
+      "categories": [
+        "ai/ml",
+        "writing",
+        "education"
+      ]
+    },
+    {
+      "id": "d5284d89-334f-401e-af59-d38f9f450b81",
+      "url": "https://claude.ai/public/artifacts/d5284d89-334f-401e-af59-d38f9f450b81",
+      "title": "API-to-MCP Bridge Builder Demo",
+      "snippet": "Transform any REST API into AI-powered tools instantly with this interactive demo. Generate MCP servers, test with AI chat interface. Built with Claude AI.",
+      "source": "ddgs_search",
+      "content_type": "public_artifact",
+      "found_via_queries": [
+        "site:claude.ai/public/artifacts"
+      ],
+      "categories": [
+        "coding",
+        "ai/ml",
+        "design",
+        "productivity"
+      ]
+    },
+    {
+      "id": "cd671664-0d4f-4cc1-8bf9-08b7f33ee8fc",
+      "url": "https://claude.ai/public/artifacts/cd671664-0d4f-4cc1-8bf9-08b7f33ee8fc",
+      "title": "Claude",
+      "snippet": "Content is user-generated and unverified \u00b7 Customize \u00b7 Claude: An Interactive Representation | Claude",
+      "source": "ddgs_search",
+      "content_type": "public_artifact",
+      "found_via_queries": [
+        "site:claude.ai/public/artifacts"
+      ],
+      "categories": [
+        "ai/ml",
+        "writing"
+      ]
+    },
+    {
+      "id": "6e8ffdf3-3faa-4b43-ba76-4c789568e368",
+      "url": "https://claude.ai/public/artifacts/6e8ffdf3-3faa-4b43-ba76-4c789568e368",
+      "source": "brave_search",
+      "title": "Claude's Complete System Prompt Structure",
+      "description": "Try out Artifacts created by Claude users",
+      "categories": [
+        "coding",
+        "ai/ml",
+        "writing",
+        "education",
+        "design"
+      ],
+      "content_type": "public_artifact",
+      "snippet": "August 15, 2025 - - For structured reference content (meal plans, workout schedules, study guides, etc.), prefer markdown artifacts as they're easily saved and referenced by users - **Strictly limit to one artifact per response** - use the update mechanism for corrections - Focus on creating complete, functional solutions - For code artifacts: Use concise variable names (e.g., `i`, `j` for indices, `e` for event, `el` for element) to maximize content within context limits while maintaining readability # CRITICAL BROWSER STORAGE RESTRICTION **NEVER use localStorage, sessionStorage, or ANY browser storage APIs in artifacts.** These APIs are NOT supported and will cause artifacts to fail in the Claude.ai environment.",
+      "found_via_queries": [
+        "site:claude.ai/public/artifacts"
+      ]
+    },
+    {
+      "id": "a52a8267-15a3-4776-a88c-adc647ad9e6a",
+      "url": "https://claude.ai/public/artifacts/a52a8267-15a3-4776-a88c-adc647ad9e6a",
+      "title": "Embodied AI Chatbot - One Page Practice | Claude",
+      "snippet": "July 29, 2025 - Transform any subject into engaging AI character conversations. Students interview historical figures, explore concepts through personas. Built with Claude AI.",
+      "source": "ddgs_search",
+      "content_type": "public_artifact",
+      "found_via_queries": [
+        "site:claude.ai/public/artifacts"
+      ],
+      "categories": [
+        "ai/ml",
+        "design"
+      ]
+    },
+    {
+      "id": "f76924d7-edc5-4a4d-8d5f-4e8e92c4d5b0",
+      "url": "https://claude.ai/public/artifacts/f76924d7-edc5-4a4d-8d5f-4e8e92c4d5b0",
+      "title": "From Selling Out to AI Dependency",
+      "snippet": "Consider the recent controversy when Sports Illustrated published AI-generated articles under fake author profiles complete with AI-generated headshots.",
+      "source": "ddgs_search",
+      "content_type": "public_artifact",
+      "found_via_queries": [
+        "site:claude.ai/public/artifacts"
+      ],
+      "categories": [
+        "ai/ml",
+        "business",
+        "writing"
+      ]
+    },
+    {
+      "id": "447ddb6d-78a0-42f0-9b24-595cbfb1316f",
+      "url": "https://claude.ai/public/artifacts/447ddb6d-78a0-42f0-9b24-595cbfb1316f",
+      "source": "brave_search",
+      "title": "Updated Availability Detail Popup",
+      "description": "Try out Artifacts created by Claude users",
+      "categories": [
+        "ai/ml",
+        "design"
+      ],
+      "content_type": "public_artifact",
+      "snippet": "Track team availability instantly with this interactive resource dashboard. View real-time allocation, skills, and project timelines. Built with Claude AI.",
+      "found_via_queries": [
+        "site:claude.ai/public/artifacts"
+      ]
+    }
+  ],
+  "organized_by_category": {
+    "ai/ml": [
+      {
+        "title": null,
+        "url": "https://claude.ai/share/f09065af-01f6-47b3-b8ec-aa228327450b",
+        "type": "shared_conversation",
+        "snippet": null
+      },
+      {
+        "title": null,
+        "url": "https://claude.ai/share/ec8b0563-d80b-4882-82e8-5504e3229a17",
+        "type": "shared_conversation",
+        "snippet": "Shared via Claude, an AI assistant from Anthropic"
+      },
+      {
+        "title": null,
+        "url": "https://claude.ai/share/e7fa45cc-396a-4771-97be-74d606ec3beb",
+        "type": "shared_conversation",
+        "snippet": null
+      },
+      {
+        "title": null,
+        "url": "https://claude.ai/share/dc9399d1-fb2c-4958-9486-11bebb55746f",
+        "type": "shared_conversation",
+        "snippet": "Shared via Claude, an AI assistant from Anthropic"
+      },
+      {
+        "title": null,
+        "url": "https://claude.ai/share/cf369134-45de-4516-9b4b-42e07ee26aef",
+        "type": "shared_conversation",
+        "snippet": "Shared via Claude, an AI assistant from Anthropic"
+      },
+      {
+        "title": null,
+        "url": "https://claude.ai/share/cc32d405-cb53-4e52-a1a0-9b4df4e528ac",
+        "type": "shared_conversation",
+        "snippet": null
+      },
+      {
+        "title": null,
+        "url": "https://claude.ai/share/c4e74f6a-8a8d-4d3b-a3b1-37aeb1253227",
+        "type": "shared_conversation",
+        "snippet": "Shared via Claude, an AI assistant from Anthropic"
+      },
+      {
+        "title": null,
+        "url": "https://claude.ai/share/b78a3cc7-6e9b-4cc4-b85c-a3ad7d8c219b",
+        "type": "shared_conversation",
+        "snippet": "Shared via Claude, an AI assistant from Anthropic"
+      },
+      {
+        "title": null,
+        "url": "https://claude.ai/share/b76ffb8c-8a9d-43fb-b02d-0990e2e2fc7c",
+        "type": "shared_conversation",
+        "snippet": "Shared via Claude, an AI assistant from Anthropic"
+      },
+      {
+        "title": null,
+        "url": "https://claude.ai/share/aa625c33-c2fd-4df0-8d1b-3b29ae854073",
+        "type": "shared_conversation",
+        "snippet": "Shared via Claude, an AI assistant from Anthropic"
+      },
+      {
+        "title": null,
+        "url": "https://claude.ai/share/992fc340-08a2-48d2-9337-6fd5de744a23",
+        "type": "shared_conversation",
+        "snippet": "Shared via Claude, an AI assistant from Anthropic"
+      },
+      {
+        "title": null,
+        "url": "https://claude.ai/share/8383747a-aaf1-4f6c-a516-0e839f46a698",
+        "type": "shared_conversation",
+        "snippet": "Shared via Claude, an AI assistant from Anthropic"
+      },
+      {
+        "title": null,
+        "url": "https://claude.ai/share/805ee3e5-eb74-43b6-8036-03615b303f6d",
+        "type": "shared_conversation",
+        "snippet": "Shared via Claude, an AI assistant from Anthropic"
+      },
+      {
+        "title": null,
+        "url": "https://claude.ai/share/79006cbb-e143-4c25-9016-f89ece45e9be",
+        "type": "shared_conversation",
+        "snippet": "Shared via Claude, an AI assistant from Anthropic"
+      },
+      {
+        "title": null,
+        "url": "https://claude.ai/share/5df888fd-5087-413f-b93e-1c5cd86da202",
+        "type": "shared_conversation",
+        "snippet": null
+      },
+      {
+        "title": null,
+        "url": "https://claude.ai/share/501319d0-1b49-4eae-9996-9108d85fbaff",
+        "type": "shared_conversation",
+        "snippet": null
+      },
+      {
+        "title": null,
+        "url": "https://claude.ai/share/4eb8d514-dc4c-4201-9e51-56ca79deee8c",
+        "type": "shared_conversation",
+        "snippet": null
+      },
+      {
+        "title": null,
+        "url": "https://claude.ai/share/424b5181-0e09-4685-8f68-b58bfb4fe294",
+        "type": "shared_conversation",
+        "snippet": "Shared via Claude, an AI assistant from Anthropic"
+      },
+      {
+        "title": null,
+        "url": "https://claude.ai/share/33dd4a49-be99-4c56-872f-09ea030376ed",
+        "type": "shared_conversation",
+        "snippet": "Shared via Claude, an AI assistant from Anthropic"
+      },
+      {
+        "title": null,
+        "url": "https://claude.ai/share/2e01ad60-ca38-4e14-ab60-74eaa45b2fbd",
+        "type": "shared_conversation",
+        "snippet": null
+      },
+      {
+        "title": null,
+        "url": "https://claude.ai/share/2a78cd7b-4bd0-48b4-b160-1652ba98334a",
+        "type": "shared_conversation",
+        "snippet": null
+      },
+      {
+        "title": null,
+        "url": "https://claude.ai/share/25c295a6-02e4-4cbf-836f-689fd8f45a72",
+        "type": "shared_conversation",
+        "snippet": "Shared via Claude, an AI assistant from Anthropic"
+      },
+      {
+        "title": null,
+        "url": "https://claude.ai/share/1fb6a487-fa8b-4dcf-b773-c5a92aab3ced",
+        "type": "shared_conversation",
+        "snippet": null
+      },
+      {
+        "title": null,
+        "url": "https://claude.ai/share/0d877a61-9e30-451c-9f77-6ae112255716",
+        "type": "shared_conversation",
+        "snippet": "Shared via Claude, an AI assistant from Anthropic"
+      },
+      {
+        "title": null,
+        "url": "https://claude.ai/share/05c0f205-b4a2-435e-a33c-cfeb3ce2de8e",
+        "type": "shared_conversation",
+        "snippet": null
+      },
+      {
+        "title": "AI Tools Index - Classy Directory",
+        "url": "https://claude.ai/public/artifacts/075afcb7-e682-49bb-8a89-ed2a3b1f01b4",
+        "type": "public_artifact",
+        "snippet": "Discover 30+ top AI tools including Claude, ChatGPT, Gemini & specialized LLMs in one searchable directory. Built with Claude AI."
+      },
+      {
+        "title": "AI en EdTech - Presentaci\u00f3n Interactiva",
+        "url": "https://claude.ai/public/artifacts/ec730044-bbf2-4914-9f6b-8cd8497c0b5d",
+        "type": "public_artifact",
+        "snippet": "Loading \u00b7 Content is user-generated and unverified \u00b7 Customize \u00b7 AI en EdTech - Presentaci\u00f3n Interactiva | Claude"
+      },
+      {
+        "title": "API-to-MCP Bridge Builder Demo",
+        "url": "https://claude.ai/public/artifacts/d5284d89-334f-401e-af59-d38f9f450b81",
+        "type": "public_artifact",
+        "snippet": "Transform any REST API into AI-powered tools instantly with this interactive demo. Generate MCP servers, test with AI chat interface. Built with Claude AI."
+      },
+      {
+        "title": "Claude",
+        "url": "https://claude.ai/share/1627f1f3-4b07-4eb3-af24-5ac2da96b712",
+        "type": "shared_conversation",
+        "snippet": "Shared via Claude, an AI assistant from Anthropic"
+      },
+      {
+        "title": "Claude",
+        "url": "https://claude.ai/public/artifacts/cd671664-0d4f-4cc1-8bf9-08b7f33ee8fc",
+        "type": "public_artifact",
+        "snippet": "Content is user-generated and unverified \u00b7 Customize \u00b7 Claude: An Interactive Representation | Claude"
+      },
+      {
+        "title": "Claude AI",
+        "url": "https://claude.ai/share/eb5d7782-0093-4bec-b86d-03c23dfbb1b1",
+        "type": "shared_conversation",
+        "snippet": "Shared via Claude, an AI assistant from Anthropic"
+      },
+      {
+        "title": "Claude's Complete System Prompt Structure",
+        "url": "https://claude.ai/public/artifacts/6e8ffdf3-3faa-4b43-ba76-4c789568e368",
+        "type": "public_artifact",
+        "snippet": "August 15, 2025 - - For structured reference content (meal plans, workout schedules, study guides, etc.), prefer markdown artifacts as they're easily saved and referenced by users - **Strictly limit t"
+      },
+      {
+        "title": "Embodied AI Chatbot - One Page Practice | Claude",
+        "url": "https://claude.ai/public/artifacts/a52a8267-15a3-4776-a88c-adc647ad9e6a",
+        "type": "public_artifact",
+        "snippet": "July 29, 2025 - Transform any subject into engaging AI character conversations. Students interview historical figures, explore concepts through personas. Built with Claude AI."
+      },
+      {
+        "title": "From Selling Out to AI Dependency",
+        "url": "https://claude.ai/public/artifacts/f76924d7-edc5-4a4d-8d5f-4e8e92c4d5b0",
+        "type": "public_artifact",
+        "snippet": "Consider the recent controversy when Sports Illustrated published AI-generated articles under fake author profiles complete with AI-generated headshots."
+      },
+      {
+        "title": "Updated Availability Detail Popup",
+        "url": "https://claude.ai/public/artifacts/447ddb6d-78a0-42f0-9b24-595cbfb1316f",
+        "type": "public_artifact",
+        "snippet": "Track team availability instantly with this interactive resource dashboard. View real-time allocation, skills, and project timelines. Built with Claude AI."
+      }
+    ],
+    "business": [
+      {
+        "title": "From Selling Out to AI Dependency",
+        "url": "https://claude.ai/public/artifacts/f76924d7-edc5-4a4d-8d5f-4e8e92c4d5b0",
+        "type": "public_artifact",
+        "snippet": "Consider the recent controversy when Sports Illustrated published AI-generated articles under fake author profiles complete with AI-generated headshots."
+      }
+    ],
+    "coding": [
+      {
+        "title": "API-to-MCP Bridge Builder Demo",
+        "url": "https://claude.ai/public/artifacts/d5284d89-334f-401e-af59-d38f9f450b81",
+        "type": "public_artifact",
+        "snippet": "Transform any REST API into AI-powered tools instantly with this interactive demo. Generate MCP servers, test with AI chat interface. Built with Claude AI."
+      },
+      {
+        "title": "Claude's Complete System Prompt Structure",
+        "url": "https://claude.ai/public/artifacts/6e8ffdf3-3faa-4b43-ba76-4c789568e368",
+        "type": "public_artifact",
+        "snippet": "August 15, 2025 - - For structured reference content (meal plans, workout schedules, study guides, etc.), prefer markdown artifacts as they're easily saved and referenced by users - **Strictly limit t"
+      }
+    ],
+    "data": [
+      {
+        "title": "AI Tools Index - Classy Directory",
+        "url": "https://claude.ai/public/artifacts/075afcb7-e682-49bb-8a89-ed2a3b1f01b4",
+        "type": "public_artifact",
+        "snippet": "Discover 30+ top AI tools including Claude, ChatGPT, Gemini & specialized LLMs in one searchable directory. Built with Claude AI."
+      }
+    ],
+    "design": [
+      {
+        "title": "AI Tools Index - Classy Directory",
+        "url": "https://claude.ai/public/artifacts/075afcb7-e682-49bb-8a89-ed2a3b1f01b4",
+        "type": "public_artifact",
+        "snippet": "Discover 30+ top AI tools including Claude, ChatGPT, Gemini & specialized LLMs in one searchable directory. Built with Claude AI."
+      },
+      {
+        "title": "API-to-MCP Bridge Builder Demo",
+        "url": "https://claude.ai/public/artifacts/d5284d89-334f-401e-af59-d38f9f450b81",
+        "type": "public_artifact",
+        "snippet": "Transform any REST API into AI-powered tools instantly with this interactive demo. Generate MCP servers, test with AI chat interface. Built with Claude AI."
+      },
+      {
+        "title": "Claude's Complete System Prompt Structure",
+        "url": "https://claude.ai/public/artifacts/6e8ffdf3-3faa-4b43-ba76-4c789568e368",
+        "type": "public_artifact",
+        "snippet": "August 15, 2025 - - For structured reference content (meal plans, workout schedules, study guides, etc.), prefer markdown artifacts as they're easily saved and referenced by users - **Strictly limit t"
+      },
+      {
+        "title": "Embodied AI Chatbot - One Page Practice | Claude",
+        "url": "https://claude.ai/public/artifacts/a52a8267-15a3-4776-a88c-adc647ad9e6a",
+        "type": "public_artifact",
+        "snippet": "July 29, 2025 - Transform any subject into engaging AI character conversations. Students interview historical figures, explore concepts through personas. Built with Claude AI."
+      },
+      {
+        "title": "Updated Availability Detail Popup",
+        "url": "https://claude.ai/public/artifacts/447ddb6d-78a0-42f0-9b24-595cbfb1316f",
+        "type": "public_artifact",
+        "snippet": "Track team availability instantly with this interactive resource dashboard. View real-time allocation, skills, and project timelines. Built with Claude AI."
+      }
+    ],
+    "education": [
+      {
+        "title": "AI en EdTech - Presentaci\u00f3n Interactiva",
+        "url": "https://claude.ai/public/artifacts/ec730044-bbf2-4914-9f6b-8cd8497c0b5d",
+        "type": "public_artifact",
+        "snippet": "Loading \u00b7 Content is user-generated and unverified \u00b7 Customize \u00b7 AI en EdTech - Presentaci\u00f3n Interactiva | Claude"
+      },
+      {
+        "title": "Claude's Complete System Prompt Structure",
+        "url": "https://claude.ai/public/artifacts/6e8ffdf3-3faa-4b43-ba76-4c789568e368",
+        "type": "public_artifact",
+        "snippet": "August 15, 2025 - - For structured reference content (meal plans, workout schedules, study guides, etc.), prefer markdown artifacts as they're easily saved and referenced by users - **Strictly limit t"
+      }
+    ],
+    "productivity": [
+      {
+        "title": "AI Tools Index - Classy Directory",
+        "url": "https://claude.ai/public/artifacts/075afcb7-e682-49bb-8a89-ed2a3b1f01b4",
+        "type": "public_artifact",
+        "snippet": "Discover 30+ top AI tools including Claude, ChatGPT, Gemini & specialized LLMs in one searchable directory. Built with Claude AI."
+      },
+      {
+        "title": "API-to-MCP Bridge Builder Demo",
+        "url": "https://claude.ai/public/artifacts/d5284d89-334f-401e-af59-d38f9f450b81",
+        "type": "public_artifact",
+        "snippet": "Transform any REST API into AI-powered tools instantly with this interactive demo. Generate MCP servers, test with AI chat interface. Built with Claude AI."
+      }
+    ],
+    "uncategorized": [
+      {
+        "title": null,
+        "url": "https://claude.ai/share/86b73f06-af42-4e85-96ce-f6f74a224ca8",
+        "type": "shared_conversation",
+        "snippet": null
+      },
+      {
+        "title": null,
+        "url": "https://claude.ai/share/9a5ff6bd-f0d6-470f-9775-410286030efb",
+        "type": "shared_conversation",
+        "snippet": null
+      }
+    ],
+    "writing": [
+      {
+        "title": "AI en EdTech - Presentaci\u00f3n Interactiva",
+        "url": "https://claude.ai/public/artifacts/ec730044-bbf2-4914-9f6b-8cd8497c0b5d",
+        "type": "public_artifact",
+        "snippet": "Loading \u00b7 Content is user-generated and unverified \u00b7 Customize \u00b7 AI en EdTech - Presentaci\u00f3n Interactiva | Claude"
+      },
+      {
+        "title": "Claude",
+        "url": "https://claude.ai/public/artifacts/cd671664-0d4f-4cc1-8bf9-08b7f33ee8fc",
+        "type": "public_artifact",
+        "snippet": "Content is user-generated and unverified \u00b7 Customize \u00b7 Claude: An Interactive Representation | Claude"
+      },
+      {
+        "title": "Claude's Complete System Prompt Structure",
+        "url": "https://claude.ai/public/artifacts/6e8ffdf3-3faa-4b43-ba76-4c789568e368",
+        "type": "public_artifact",
+        "snippet": "August 15, 2025 - - For structured reference content (meal plans, workout schedules, study guides, etc.), prefer markdown artifacts as they're easily saved and referenced by users - **Strictly limit t"
+      },
+      {
+        "title": "From Selling Out to AI Dependency",
+        "url": "https://claude.ai/public/artifacts/f76924d7-edc5-4a4d-8d5f-4e8e92c4d5b0",
+        "type": "public_artifact",
+        "snippet": "Consider the recent controversy when Sports Illustrated published AI-generated articles under fake author profiles complete with AI-generated headshots."
+      }
+    ]
+  }
+}
