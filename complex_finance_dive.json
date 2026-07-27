@@ -1,0 +1,728 @@
+{
+  "total": 55,
+  "items": [
+    {
+      "url": "https://ib-alpha.vercel.app/",
+      "title": "Parth Mitesh Shah \u2014 Investment Banking",
+      "snippet": "Parth Mitesh Shah \u2014 MS Finance candidate at UT Dallas targeting investment banking. LBO, DCF & comps modeling, plus the tools behind the models.",
+      "score": 28,
+      "keywords": [
+        "lbo",
+        "dcf",
+        "investment banking"
+      ],
+      "query": "site:vercel.app IRR LBO financial model"
+    },
+    {
+      "url": "https://calcanything.vercel.app/",
+      "title": "CalcAnything - Free Financial Calculators",
+      "snippet": "Free online financial calculators: compound interest, salary converter, tip calculator, mortgage, tax brackets, retirement, debt payoff, loan payments, profit margin ...",
+      "found_via": "site:vercel.app financial calculator",
+      "finance_keywords": [
+        "financial",
+        "profit",
+        "tax",
+        "debt",
+        "loan"
+      ],
+      "score": 25,
+      "category": "Tax",
+      "platform": "Vercel App",
+      "source": "finance_dive"
+    },
+    {
+      "url": "https://fincalcproo.vercel.app/",
+      "title": "Free Financial Calculators _ Loan, Mortgage, Retirement ...",
+      "snippet": "70+ free financial calculators: loan EMI, mortgage, compound interest, retirement, salary tax, BMI, SIP, ROI, budget planner, currency converter & more. Instant results, no signup needed.",
+      "found_via": "site:vercel.app financial calculator",
+      "finance_keywords": [
+        "financial",
+        "budget",
+        "tax",
+        "roi",
+        "loan"
+      ],
+      "score": 23,
+      "category": "Cash Management & Ops",
+      "platform": "Vercel App",
+      "source": "finance_dive"
+    },
+    {
+      "url": "https://claude.ai/public/artifacts/81be909c-b81f-432b-adaf-10e5945ca588",
+      "title": "Lenskart IPO Analysis: Complete Investment Guide 2025 - ClaudeBOAS vs Stock Market Investment: Charity Funding Decision ...Portfolio Margin vs Dividend Analysis",
+      "snippet": "Comprehensive Lenskart equity research with financial analysis, valuation metrics, risk assessment & investment outlook for the $8.3B eyewear IPO. Compare BOAS startup investment vs stock market returns for charitable giving. Risk analysis, expected values, and decision framework for \u20ac232k donation. Key Insights with 50% Dividend Reinvestment: \u2022 **Compounding effect**: Investment grows from $50k t",
+      "found_via": "site:claude.ai/public/artifacts investment",
+      "finance_keywords": [
+        "financial",
+        "valuation",
+        "invest",
+        "portfolio",
+        "dividend"
+      ],
+      "score": 21,
+      "category": "Investing & Valuation",
+      "platform": "Claude Artifact",
+      "source": "finance_dive"
+    },
+    {
+      "url": "https://ib-interview-prep.vercel.app/leveraged-buyouts/lbo-fundamentals",
+      "title": "LBO Fundamentals | Investment Banking Interview Prep",
+      "snippet": "LBO Fundamentals covers the core concepts, structures, and key considerations in leveraged buyout transactions that are essential for investment banking interviews.",
+      "score": 20,
+      "keywords": [
+        "lbo",
+        "investment banking"
+      ],
+      "query": "site:vercel.app IRR LBO financial model"
+    },
+    {
+      "url": "https://pulse-platform-orcin.vercel.app/buy/models",
+      "title": "The Pulse -- Investment Banking, Consulting, & Buyside Recruiting",
+      "snippet": "The premium database for high-finance recruiting. Verified application links, direct headhunter contacts, and 15+ LBO case studies \u2014 updated daily.",
+      "score": 20,
+      "keywords": [
+        "lbo",
+        "investment banking"
+      ],
+      "query": "site:vercel.app IRR LBO financial model"
+    },
+    {
+      "url": "https://claude.ai/public/artifacts/0980ed91-0c50-40c1-8608-617b969b76a8",
+      "title": "Portfolio Margin vs Dividend Analysis",
+      "snippet": "Key Insights with 50% Dividend Reinvestment: \u2022 **Compounding effect**: Investment grows from $50k to $ 114,289 in 24 months \u2022 **Robinhood advantage**: Total value difference of $ 6,825 at 24 months \u2022 **Cash flow**: Still generating $ 2,679 /month in cash \u2022 **Risk consideration**: Reinvestment amplifies both gains and potential losses",
+      "found_via": "site:claude.ai/public/artifacts cash flow",
+      "finance_keywords": [
+        "cash flow",
+        "loss",
+        "invest",
+        "portfolio",
+        "dividend"
+      ],
+      "score": 20,
+      "category": "Investing & Valuation",
+      "platform": "Claude Artifact",
+      "source": "finance_dive"
+    },
+    {
+      "url": "https://sophie-ai-finance.vercel.app/articles/deep-research-microsoft-valuation-analysis",
+      "title": "SOPHIE Daddy Quant Blog - Stock & Options Analysis",
+      "snippet": "Executive Summary This report provides a comparative analysis of two cornerstone valuation methodologies\u2014Enterprise Value to EBITDA (EV/EBITDA) and Discounted Cash Flow (DCF)\u2014as applied to Microsoft Corporation (MSFT).",
+      "found_via": "site:vercel.app DCF",
+      "finance_keywords": [
+        "cash flow",
+        "dcf",
+        "valuation",
+        "ebitda",
+        "stock"
+      ],
+      "score": 20,
+      "category": "Investing & Valuation",
+      "platform": "Vercel App",
+      "source": "finance_dive"
+    },
+    {
+      "url": "https://claude.ai/public/artifacts/636755e7-822c-4155-96c5-53db455ba58c",
+      "title": "AI Board Advisory System: Information Requirements Checklist",
+      "snippet": "Cash flow statements and forecasts Capital expenditure tracking Working capital management data Financial KPIs and metrics Regulatory reporting requirements 4. Human Resources Systems and Data HR Technology Stack HRIS platform (vendor, capabilities) Payroll system Talent management system Performance management platform Learning management system",
+      "found_via": "site:claude.ai/public/artifacts cash flow",
+      "finance_keywords": [
+        "financial",
+        "cash flow",
+        "payroll",
+        "forecast"
+      ],
+      "score": 19,
+      "category": "Cash Management & Ops",
+      "platform": "Claude Artifact",
+      "source": "finance_dive"
+    },
+    {
+      "url": "https://finaccsolutions.vercel.app/",
+      "title": "Virtual Bookkeeping & Accounting Services | FinAccSolutions",
+      "snippet": "Senior finance and accounting professionals \u2014 Big 4 and Big 10 trained, IFRS & US GAAP certified \u2014 embedded into your team at a fraction of the local hiring cost.",
+      "found_via": "site:vercel.app accounting",
+      "finance_keywords": [
+        "finance",
+        "accounting",
+        "bookkeep",
+        "gaap",
+        "ifrs"
+      ],
+      "score": 18,
+      "category": "Accounting & Bookkeeping",
+      "platform": "Vercel App",
+      "source": "finance_dive"
+    },
+    {
+      "url": "https://accountingswebsite.vercel.app/",
+      "title": "Accounting Website",
+      "snippet": "ETC now offers a wide variety of Accounting Services which includes Bookkeeping, Accounts Payable (A/P) & Accounts Receivable (A/R) Processing, Payroll Services, Billing & Collections, and Audit Services, etc.",
+      "found_via": "site:vercel.app accounting",
+      "finance_keywords": [
+        "accounting",
+        "bookkeep",
+        "payroll",
+        "audit",
+        "billing"
+      ],
+      "score": 18,
+      "category": "Accounting & Bookkeeping",
+      "platform": "Vercel App",
+      "source": "finance_dive"
+    },
+    {
+      "url": "https://claude.ai/public/artifacts/5b9f8851-4435-42c3-94f2-20cec231aac1",
+      "title": "Personal Investment Analysis Dashboard",
+      "snippet": "Personal Investment Analysis Dashboard Comprehensive financial planning and analysis tools Loan Calculator Retirement Planning",
+      "found_via": "site:claude.ai/public/artifacts financial model",
+      "finance_keywords": [
+        "financial",
+        "invest",
+        "loan",
+        "retirement"
+      ],
+      "score": 17,
+      "category": "Investing & Valuation",
+      "platform": "Claude Artifact",
+      "source": "finance_dive"
+    },
+    {
+      "url": "https://financetoolshub-green.vercel.app/compare",
+      "title": "FinanceToolsHub | Professional Financial Calculators",
+      "snippet": "Free, professional-grade financial calculators and guides for mortgages, investing, retirement, and debt payoff.",
+      "found_via": "site:vercel.app financial calculator",
+      "finance_keywords": [
+        "financial",
+        "finance",
+        "invest",
+        "debt",
+        "mortgage"
+      ],
+      "score": 17,
+      "category": "Investing & Valuation",
+      "platform": "Vercel App",
+      "source": "finance_dive"
+    },
+    {
+      "url": "https://claude.ai/public/artifacts/96d597bf-e617-438a-aba4-f51bbe3c1876",
+      "title": "2025\ub144 SaaS \ud1a0\ud070 \uc0ac\uc6a9\ub7c9 \ubc0f \ub9e4\ucd9c \ub300\uc2dc\ubcf4\ub4dc",
+      "snippet": "Track SaaS token usage, revenue & growth with interactive dashboards. Built with Claude AI - visualize metrics, forecast trends & optimize performance.",
+      "found_via": "site:claude.ai/public/artifacts SaaS metrics",
+      "finance_keywords": [
+        "revenue",
+        "forecast"
+      ],
+      "score": 16,
+      "category": "Startup & SaaS Metrics",
+      "platform": "Claude Artifact",
+      "source": "finance_dive"
+    },
+    {
+      "url": "https://claude.ai/public/artifacts/ec371c5f-f69e-4235-a79b-a815d9fcc710",
+      "title": "Squad-Level Financial Performance Dashboard",
+      "snippet": "Track squad financial performance with interactive dashboards showing revenue, profit margins & deliverables. Built with Claude AI.",
+      "found_via": "site:claude.ai/public/artifacts financial",
+      "finance_keywords": [
+        "financial",
+        "profit",
+        "revenue"
+      ],
+      "score": 15,
+      "category": "Tools & Models",
+      "platform": "Claude Artifact",
+      "source": "finance_dive"
+    },
+    {
+      "url": "https://financecalc-one.vercel.app/",
+      "title": "FinanceCalc - EMI, Loan, SIP, FD & Tax Calculator Online",
+      "snippet": "FinanceCalc offers free online financial calculators. Estimate loan EMIs, mutual fund SIP returns, fixed deposit interest, GST, and income taxes instantly.",
+      "found_via": "site:vercel.app financial calculator",
+      "finance_keywords": [
+        "financial",
+        "finance",
+        "tax",
+        "loan",
+        "interest"
+      ],
+      "score": 15,
+      "category": "Tax",
+      "platform": "Vercel App",
+      "source": "finance_dive"
+    },
+    {
+      "url": "https://calc-hub-v2.vercel.app/",
+      "title": "CalcHub - Fast, Reliable Financial Calculators",
+      "snippet": "Free online calculators for finance, investing, business, and supply chain. EMI, ROI, profit margin, break-even, and more. Fast, accurate, mobile-friendly.",
+      "found_via": "site:vercel.app financial calculator",
+      "finance_keywords": [
+        "financial",
+        "finance",
+        "profit",
+        "invest",
+        "roi"
+      ],
+      "score": 15,
+      "category": "Investing & Valuation",
+      "platform": "Vercel App",
+      "source": "finance_dive"
+    },
+    {
+      "url": "https://claude.ai/public/artifacts/bb4bbddd-24d7-4a58-9034-af0a11c7966c",
+      "title": "IRS Tax Debt Calculator - Working Tool",
+      "snippet": "Calculate your exact IRS tax debt with penalties & interest instantly. Get personalized payment strategies. Built with Claude AI - Free tool.",
+      "found_via": "site:claude.ai/public/artifacts tax",
+      "finance_keywords": [
+        "tax",
+        "debt",
+        "interest",
+        "payment"
+      ],
+      "score": 14,
+      "category": "Tax",
+      "platform": "Claude Artifact",
+      "source": "finance_dive"
+    },
+    {
+      "url": "https://budget-tracker-bot-axl.vercel.app/",
+      "title": "AI Budget Tracker Bot - Portfolio",
+      "snippet": "Built inside Telegram, it instantly reads the text using artificial intelligence, categorizes your purchases, saves the data to a spreadsheet, and keeps you on top of your monthly budget in real time.",
+      "found_via": "site:vercel.app budget",
+      "finance_keywords": [
+        "budget",
+        "portfolio",
+        "spreadsheet"
+      ],
+      "score": 14,
+      "category": "Investing & Valuation",
+      "platform": "Vercel App",
+      "source": "finance_dive"
+    },
+    {
+      "url": "https://financial-calculators-seven.vercel.app/",
+      "title": "Financial Calculators",
+      "snippet": "Auto Loan Calculator Calculate your auto loan payments and explore different financing options to find the best fit for your budget.",
+      "found_via": "site:vercel.app financial calculator",
+      "finance_keywords": [
+        "financial",
+        "budget",
+        "loan",
+        "payment"
+      ],
+      "score": 13,
+      "category": "Cash Management & Ops",
+      "platform": "Vercel App",
+      "source": "finance_dive"
+    },
+    {
+      "url": "https://observablehq.com/@oscar6echo/black-scholes-calculator",
+      "title": "Black Scholes Calculator / oscar6echo | Observable",
+      "snippet": "Feb 9, 2024 \u00b7 The Black Scholes model gives the price of European options under theoretical market conditions. It was introduced by Fischer Black and Myron Scholes in their 1973 paper The pricing of options and corporate liabilites.",
+      "score": 11,
+      "keywords": [
+        "black scholes",
+        "options"
+      ],
+      "query": "site:observablehq.com Black Scholes options"
+    },
+    {
+      "url": "https://india-lbo-take-pv-screener.vercel.app/",
+      "title": "India LBO Take-Private Screener",
+      "snippet": "Jun 19, 2026 \u00b7 Base-case IRR \u2014 ranked ALKYLAMINE INDIAMART TANLA ZENSARTECH NATCOPHARM 0% 3% 6% 9% 12% 15% 18% NATCOPHARM NATCOPHARM.NS \u00b7 tearsheet \u2192 15.6% IRR",
+      "score": 11,
+      "keywords": [
+        "lbo",
+        "irr"
+      ],
+      "query": "site:vercel.app IRR LBO financial model"
+    },
+    {
+      "url": "https://claude.ai/public/artifacts/c3c2e6a4-dd5b-4625-9229-caafa6fb56bd",
+      "title": "DCF Valuation Calculator",
+      "snippet": "Content is user-generated and unverified \u00b7 Customize \u00b7 DCF Valuation Calculator | Claude",
+      "score": 10,
+      "keywords": [
+        "dcf"
+      ],
+      "query": "site:claude.ai/public/artifacts equity research DCF"
+    },
+    {
+      "url": "https://claude.ai/public/artifacts/2d5d94d2-b4c9-4a3d-ad7d-7b1318750ab2",
+      "title": "Block Inc. Equity Research Report",
+      "snippet": "Block maintains a conservative capital structure with $6.04 billion in total debt offset by $7.52 billion in cash and cash equivalents, creating a net cash position of $1.47 billion. The debt-to-equity ratio of 0.28 indicates low financial leverage, while the current ratio of 2.27 demonstrates ...",
+      "score": 10,
+      "keywords": [
+        "equity research"
+      ],
+      "query": "site:claude.ai/public/artifacts equity research DCF"
+    },
+    {
+      "url": "https://publish.obsidian.md/kaas-published/0-Slipbox/Actuarial+Science+-+Life+Insurance+Terms+-+Topsides",
+      "title": "Actuarial Science - Life Insurance Terms - Topsides - KaaS ...",
+      "snippet": "The topside entry is a practice within the scope of the Generally Accepted Accounting Principles, also known as GAAP. However, despite their intrinsic validity, topside entries have often been used to post fraudulent figures by reducing liability accounts or decreasing the stated costs.",
+      "found_via": "site:publish.obsidian.md accounting",
+      "finance_keywords": [
+        "accounting",
+        "gaap"
+      ],
+      "score": 10,
+      "category": "Accounting & Bookkeeping",
+      "platform": "Obsidian Publish",
+      "source": "finance_dive"
+    },
+    {
+      "url": "https://claude.ai/public/artifacts/d6eaa006-2e5d-4b81-87ce-42de10363d51",
+      "title": "Complete 4IR Stock Investment List",
+      "snippet": "Content is user-generated and unverified \u00b7 Customize \u00b7 Complete 4IR Stock Investment List \u00b7 Original Top 20 Selections \u00b7 Additional Strategic Picks \u00b7 Sector Breakdown \u00b7 Technology (15 stocks) \u00b7 AI/Semiconductors: NVDA, AMD, ASML, TSM \u00b7 Cloud/Infrastructure: MSFT, GOOGL, AMZN, NET, SNOW, ...",
+      "found_via": "site:claude.ai/public/artifacts financial",
+      "finance_keywords": [
+        "invest",
+        "stock"
+      ],
+      "score": 9,
+      "category": "Investing & Valuation",
+      "platform": "Claude Artifact",
+      "source": "finance_dive"
+    },
+    {
+      "url": "https://tonton-gug-studio.vercel.app/assets/finance/D01_TVM_DCF.pdf",
+      "title": "FF v2 \u00b7 Deck 1 \u00b7 Time Value of Money & DCF Foundations",
+      "snippet": "Deck 1 \u2014 Time Value of Money & DCF Foundations r is simultaneously a required return, a discount rate, and an opportunity cost \u2014 decomposable into r_real-rf + inflation + default + liquidity + maturity premia.",
+      "found_via": "site:vercel.app DCF",
+      "finance_keywords": [
+        "dcf"
+      ],
+      "score": 9,
+      "category": "Investing & Valuation",
+      "platform": "Vercel App",
+      "source": "finance_dive"
+    },
+    {
+      "url": "https://steven-jonathan.vercel.app/",
+      "title": "Steven Jonathan Sihombing \u2014 Portfolio",
+      "snippet": "DCF Undip 2025 A web platform for the Diponegoro Chemistry Fair \u2014 serving as a central hub for participants to access event information, registration, and updates.",
+      "found_via": "site:vercel.app DCF",
+      "finance_keywords": [
+        "dcf",
+        "portfolio"
+      ],
+      "score": 9,
+      "category": "Investing & Valuation",
+      "platform": "Vercel App",
+      "source": "finance_dive"
+    },
+    {
+      "url": "https://publish.obsidian.md/kaas-published/2-Areas/Lists/Actuarial+Development+Master+Resource+List",
+      "title": "Actuarial Development Master Resource List - KaaS",
+      "snippet": "Actuarial Development Master Resource List A curated list of free and open source actuarial software, various references, and code repositories related to actuarial workflows as a developer.",
+      "score": 8,
+      "keywords": [
+        "actuarial"
+      ],
+      "query": "site:publish.obsidian.md actuarial reserve"
+    },
+    {
+      "url": "https://publish.obsidian.md/kaas-published/2-Areas/Content/Posts/Actuarial+Posts/Part+I+-+Building+the+Foundation+-+Building+Blocks+of+a+Comprehensive+Actuarial+Analyses",
+      "title": "Part I - Building the Foundation - Building Blocks of a ...",
+      "snippet": "This article will walk through, in detail, the various aspects that a comprehensive actuarial analyses requires to get off the ground and running by building a solid foundation for the rest of the analyses to build from.",
+      "score": 8,
+      "keywords": [
+        "actuarial"
+      ],
+      "query": "site:publish.obsidian.md actuarial reserve"
+    },
+    {
+      "url": "https://claude.ai/public/artifacts/de11c33d-4909-4a98-b042-ce381d339493",
+      "title": "Claude",
+      "snippet": "Content is user-generated and unverified \u00b7 Customize \u00b7 CL Delta Scope: Poly Options vs Call Spread Fair Value | Claude",
+      "score": 8,
+      "keywords": [
+        "options",
+        "fair value"
+      ],
+      "query": "site:claude.ai/public/artifacts options pricing Black Scholes"
+    },
+    {
+      "url": "https://gamma.app/docs/Nvidia-Project-DIGIT--rvgezxofxeq8sy7",
+      "title": "Nvidia Project DIGIT: | Gamma",
+      "snippet": "DCF estimates, using a discount rate of around 12\u201314% and modest perpetual growth, are consistent with Nvidia's current market capitalization, indicating a fair valuation.",
+      "score": 8,
+      "keywords": [
+        "dcf"
+      ],
+      "query": "site:gamma.app/docs financial modeling valuation"
+    },
+    {
+      "url": "https://publish.obsidian.md/kaas-published/2-Areas/Content/_README",
+      "title": "_README - KaaS - Obsidian Publish",
+      "snippet": "- [[Part II - Loss Development Factors - The Building Blocks of a Comprehensive Actuarial Analysis]] - [[Part III - Actuarial Reserve and Cash Flow Analyses]]",
+      "score": 8,
+      "keywords": [
+        "actuarial"
+      ],
+      "query": "site:publish.obsidian.md actuarial reserve"
+    },
+    {
+      "url": "https://publish.obsidian.md/kaas-published/3-Resources/Tools/Developer+Tools/Languages/Python/Python+Packages/Python+Package+-+ChainLadder",
+      "title": "Python Package - ChainLadder - KaaS - Obsidian Publish",
+      "snippet": "Python Package - ChainLadder Source: casact/chainladder-python: Actuarial reserving in Python Docs: Welcome to Chainladder \u2014 Reserving in Python chainladder - Property and Casualty Loss Reserving in \u2026",
+      "score": 8,
+      "keywords": [
+        "actuarial"
+      ],
+      "query": "site:publish.obsidian.md actuarial reserve"
+    },
+    {
+      "url": "https://publish.obsidian.md/kaas-published/2-Areas/MOCs/Actuarial+Science",
+      "title": "Actuarial Science - KaaS - Obsidian Publish",
+      "snippet": "Actuarial Science Actuarial Science Map of Content houses all notes related to Actuarial Science in general. Contents Mindmap View Related Maps of Content Notes about Actuarial Science Master Resourc\u2026",
+      "score": 8,
+      "keywords": [
+        "actuarial"
+      ],
+      "query": "site:publish.obsidian.md actuarial reserve"
+    },
+    {
+      "url": "https://publish.obsidian.md/kaas-published/3-Resources/Embeds/DbDiagram+Embed+-+PCDM",
+      "title": "DbDiagram Embed - PCDM - KaaS - Obsidian Publish",
+      "snippet": "dbDiagram Link: PCDM - dbdiagram.io See Also: Property Casualty Data Model | Free Actuarial System for Loss Reserving Iframe: Appendix: Links Tools Databases Actuarial Science [[R - Simulate Actuaria\u2026",
+      "score": 8,
+      "keywords": [
+        "actuarial"
+      ],
+      "query": "site:publish.obsidian.md actuarial reserve"
+    },
+    {
+      "url": "https://publish.obsidian.md/actuarialnotes",
+      "title": "Actuarial Notes Library - Actuarial Notes - Obsidian Publish",
+      "snippet": "Welcome! The Actuarial Notes Library is the wiki for the Risk Management Market. The Risk Management Market offers: Media (529) Methods (43) Services Software Techniques...",
+      "query": "actuarial reserving chainladder site:publish.obsidian.md",
+      "keywords": [
+        "actuarial"
+      ],
+      "score": 8
+    },
+    {
+      "url": "https://claude.ai/public/artifacts/d3940925-26f5-4ef5-81fb-61dc2ab17c55",
+      "title": "Left Navigation with Tree Structure",
+      "snippet": "Payroll dashboard Content This is where the content for the selected navigation item would appear. The navigation supports up to 5 levels deep with smooth animations.",
+      "found_via": "site:claude.ai/public/artifacts payroll",
+      "finance_keywords": [
+        "payroll"
+      ],
+      "score": 8,
+      "category": "Cash Management & Ops",
+      "platform": "Claude Artifact",
+      "source": "finance_dive"
+    },
+    {
+      "url": "https://claude.ai/public/artifacts/864c8825-b738-4830-921c-7173364c21a5",
+      "title": "Shelly Mask CPA | Expert Accounting Services & Golf Industry ...",
+      "snippet": "Professional accounting services with 20+ years experience. Specializing in golf property management, multi-entity consolidations & remote financial solutions.",
+      "found_via": "site:claude.ai/public/artifacts accounting",
+      "finance_keywords": [
+        "financial",
+        "accounting"
+      ],
+      "score": 7,
+      "category": "Accounting & Bookkeeping",
+      "platform": "Claude Artifact",
+      "source": "finance_dive"
+    },
+    {
+      "url": "https://0xsebin-blogs.vercel.app/2025/03/15/Certified/",
+      "title": "Just a pentester writing things down as they happen.",
+      "snippet": "'9623dcf6-e631-fbad-dd02-e8f4cbe03f88' to the Key Credentials for 'management_svc' [*] Authenticating as 'management_svc' with the certificate [*] Using principal...",
+      "found_via": "site:vercel.app DCF",
+      "finance_keywords": [
+        "dcf"
+      ],
+      "score": 7,
+      "category": "Investing & Valuation",
+      "platform": "Vercel App",
+      "source": "finance_dive"
+    },
+    {
+      "url": "https://philips-gid.vercel.app/kak-nastroit-vremya-na-chasah-elektronnyh-filips.html",
+      "title": "\u041a\u0430\u043a \u043d\u0430\u0441\u0442\u0440\u043e\u0438\u0442\u044c \u0432\u0440\u0435\u043c\u044f \u043d\u0430 \u0447\u0430\u0441\u0430\u0445 \u044d\u043b\u0435\u043a\u0442\u0440\u043e\u043d\u043d\u044b\u0445 \u0424\u0438\u043b\u0438\u043f\u0441 \u2014 \u0424\u0438\u043b\u0438\u043f\u0441 \u0413\u0438\u0434",
+      "snippet": "\u0420\u0430\u0434\u0438\u043e\u0443\u043f\u0440\u0430\u0432\u043b\u044f\u0435\u043c\u044b\u0435 \u0447\u0430\u0441\u044b (\u043d\u0430\u043f\u0440\u0438\u043c\u0435\u0440, HF3650) \u043e\u0431\u044b\u0447\u043d\u043e \u0441\u0438\u043d\u0445\u0440\u043e\u043d\u0438\u0437\u0438\u0440\u0443\u044e\u0442\u0441\u044f \u0430\u0432\u0442\u043e\u043c\u0430\u0442\u0438\u0447\u0435\u0441\u043a\u0438 \u0441 \u0441\u0438\u0433\u043d\u0430\u043b\u043e\u043c DCF77 (\u0413\u0435\u0440\u043c\u0430\u043d\u0438\u044f) \u0438\u043b\u0438 WWVB (\u0421\u0428\u0410), \u043d\u043e \u0432 \u0420\u043e\u0441\u0441\u0438\u0438 \u044d\u0442\u043e\u0442 \u0441\u0438\u0433\u043d\u0430\u043b \u043d\u0435 \u0434\u043e\u0441\u0442\u0443\u043f\u0435\u043d.",
+      "found_via": "site:vercel.app DCF",
+      "finance_keywords": [
+        "dcf"
+      ],
+      "score": 7,
+      "category": "Investing & Valuation",
+      "platform": "Vercel App",
+      "source": "finance_dive"
+    },
+    {
+      "url": "https://philips-gid.vercel.app/chasy-elektronnye-kak-nastroit-vremya-bystro-i-bez-oshibok.html",
+      "title": "\u0427\u0430\u0441\u044b \u044d\u043b\u0435\u043a\u0442\u0440\u043e\u043d\u043d\u044b\u0435: \u043a\u0430\u043a \u043d\u0430\u0441\u0442\u0440\u043e\u0438\u0442\u044c \u0432\u0440\u0435\u043c\u044f \u0431\u044b\u0441\u0442\u0440\u043e \u0438 \u0431\u0435\u0437 \u043e\u0448\u0438\u0431\u043e\u043a...",
+      "snippet": "\u0427\u0430\u0441\u044b \u0441 \u0440\u0430\u0434\u0438\u043e\u0443\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u0438\u0435\u043c: \u0447\u0442\u043e \u043d\u0443\u0436\u043d\u043e \u0437\u043d\u0430\u0442\u044c. \u041c\u043e\u0434\u0435\u043b\u0438 \u0441 \u0440\u0430\u0434\u0438\u043e\u0441\u0438\u043d\u0445\u0440\u043e\u043d\u0438\u0437\u0430\u0446\u0438\u0435\u0439 (\u043d\u0430\u043f\u0440\u0438\u043c\u0435\u0440, Philips HF3520 \u0438\u043b\u0438 HF3670) \u0430\u0432\u0442\u043e\u043c\u0430\u0442\u0438\u0447\u0435\u0441\u043a\u0438 \u043e\u0431\u043d\u043e\u0432\u043b\u044f\u044e\u0442 \u0432\u0440\u0435\u043c\u044f \u043f\u043e \u0441\u0438\u0433\u043d\u0430\u043b\u0443 DCF77 (\u0415\u0432\u0440\u043e\u043f\u0430)...",
+      "found_via": "site:vercel.app DCF",
+      "finance_keywords": [
+        "dcf"
+      ],
+      "score": 7,
+      "category": "Investing & Valuation",
+      "platform": "Vercel App",
+      "source": "finance_dive"
+    },
+    {
+      "url": "https://publish.obsidian.md/cedarshillgroup/Writing/CHG+Issue+163+Reframing+the+Bond+Market",
+      "title": "CHG Issue 163 Reframing the Bond Market... - Obsidian Publish",
+      "snippet": "I started my investing career in the equity options market and learned things like the Black Scholes model before I spent over 20 years in the bond market.",
+      "found_via": "site:publish.obsidian.md investing",
+      "finance_keywords": [
+        "invest",
+        "equity",
+        "bond"
+      ],
+      "score": 7,
+      "category": "Investing & Valuation",
+      "platform": "Obsidian Publish",
+      "source": "finance_dive"
+    },
+    {
+      "url": "https://gamma.app/docs/GM-Financial-Enhancing-Customer-Experience-Through-Training-jg5wxs6uul82gqe",
+      "title": "GM Financial: Enhancing Customer Experience Through Training",
+      "snippet": "Established in 1992, GM Financial provides financing solutions to consumers and dealers worldwide. With over 10,000 employees globally, the company supports GM's sales through lease and loan options, fleet services, and other financial products.",
+      "found_via": "site:gamma.app/docs financial",
+      "finance_keywords": [
+        "financial",
+        "loan"
+      ],
+      "score": 7,
+      "category": "Lending & Debt",
+      "platform": "Gamma Deck",
+      "source": "finance_dive"
+    },
+    {
+      "url": "https://gamma.app/docs/Full-Stock-Options-Trading-Guide-5shlrn8dm03mxdv",
+      "title": "Full Stock & Options Trading Guide",
+      "snippet": "\" Xtrades provides the tools, insights, and support needed to succeed as a trader and investor and I\u2019m truly grateful for the opportunity to grow here and be empowered to work toward the future I\u2019ve envisioned.\"",
+      "found_via": "site:gamma.app/docs investor",
+      "finance_keywords": [
+        "invest",
+        "stock"
+      ],
+      "score": 7,
+      "category": "Investing & Valuation",
+      "platform": "Gamma Deck",
+      "source": "finance_dive"
+    },
+    {
+      "url": "https://publish.obsidian.md/distillery-technichal-documentation/4+-+Additional+Components/Distillery+AWS/distillery_aws",
+      "title": "distillery_aws - Distillery Technichal Documentation - Obsidian Publish",
+      "snippet": "...Rare Token Management and Distill Credits The `AWSManager` class offers methods for managing rare tokens and distill credits, including adding, deleting, and reserving rare token pairs...",
+      "query": "actuarial reserving chainladder site:publish.obsidian.md",
+      "keywords": [
+        "credit",
+        "aging"
+      ],
+      "score": 6
+    },
+    {
+      "url": "https://claude.ai/public/artifacts/aa0c7bf8-56a5-4d06-9a08-6f8da6c421e9",
+      "title": "Widget Company Financial Model",
+      "snippet": "Build interactive financial models with real-time charts & breakeven analysis. Dynamic widget company projections built with Claude AI.",
+      "score": 5,
+      "keywords": [
+        "financial model"
+      ],
+      "query": "site:claude.ai/public/artifacts three statement financial model"
+    },
+    {
+      "url": "https://claude.ai/public/artifacts/0700dda3-49fc-4be3-b017-348bbcb03b68",
+      "title": "Claude",
+      "snippet": "Plan your perfect 4-day Vy\u0161\u0161\u00ed Brod to Bor\u0161ov canoe trip with detailed camp locations, distances & route options. Created with Claude AI.",
+      "score": 5,
+      "keywords": [
+        "options"
+      ],
+      "query": "site:claude.ai/public/artifacts revenue recognition ASC"
+    },
+    {
+      "url": "https://claude.ai/public/artifacts/9e7cc418-9f16-4dac-9a83-d584c9466b48",
+      "title": "Leverage Investment Analysis Report - Claude",
+      "snippet": "Get professional investment analysis reports for real estate deals. Built with Claude AI - analyze cash flows, IRR, scenarios & risks instantly.",
+      "score": 5,
+      "keywords": [
+        "irr"
+      ],
+      "query": "site:claude.ai/public/artifacts IRR private equity"
+    },
+    {
+      "url": "https://claude.ai/public/artifacts/db2bf735-f7ce-45c0-912a-37d62548a3f3",
+      "title": "Enhanced Memory-Mining Portraitist Prompt - Claude",
+      "snippet": "Discover hidden aspects of your psyche through AI-powered psychological portraits. Get 5 unique artistic mirrors of your mind. Created with Claude AI.",
+      "score": 5,
+      "keywords": [
+        "irr"
+      ],
+      "query": "site:claude.ai/public/artifacts NAV fund"
+    },
+    {
+      "url": "https://claude.ai/public/artifacts/b5506ef3-a8ef-4961-95ae-71bb59e7d242",
+      "title": "Claude",
+      "snippet": "Test your knowledge of Japanese online community rules with this interactive quiz! Built with Claude AI - engaging questions, instant feedback, and personalized results.",
+      "query": "site:claude.ai/public/artifacts earnout contingent liability",
+      "keywords": [
+        "aging"
+      ],
+      "score": 5
+    },
+    {
+      "url": "https://www.perplexity.ai/page/macy-s-employee-hid-154m-JStxN9KGS5.Sa.Ysix65vg",
+      "title": "Macy's Employee Hid $154M",
+      "snippet": "The accounting irregularities at Macy's came to light during the preparation of third-quarter financial statements when discrepancies were identified in one of the company's accrual...",
+      "found_via": "site:perplexity.ai/page accounting",
+      "finance_keywords": [
+        "financial",
+        "accounting"
+      ],
+      "score": 5,
+      "category": "Accounting & Bookkeeping",
+      "platform": "Perplexity",
+      "source": "finance_dive"
+    },
+    {
+      "url": "https://gamma.app/docs/Jacobs-Solutions-Inc-Financial-Performance-Analysis-dn3kf0fnwd6pxpi",
+      "title": "Jacobs Solutions Inc. - Financial Performance Analysis",
+      "snippet": "This report presents a comprehensive financial analysis of Jacobs Solutions Inc. for fiscal year 2024, following its strategic repositioning. We will assess Jacobs' financial health post-spin-off and acquisition, comparing its performance to key industry peers, AECOM Technology Corp. and Fluor Corp.",
+      "found_via": "site:gamma.app/docs financial",
+      "finance_keywords": [
+        "financial"
+      ],
+      "score": 5,
+      "category": "General Finance",
+      "platform": "Gamma Deck",
+      "source": "finance_dive"
+    },
+    {
+      "url": "https://gamma.app/docs/Venus-Data-Center-Partnership-Opportunity-b687nua8fu1dx8u",
+      "title": "Venus Data Center Partnership Opportunity - gamma.app",
+      "snippet": "Key Achievement: Together, this leadership team has successfully completed 50+ deals over the last 8 years with an average IRR of 41.3%, demonstrating the expertise necessary to guide investor capital toward strong returns.",
+      "found_via": "site:gamma.app/docs investor",
+      "finance_keywords": [
+        "invest"
+      ],
+      "score": 5,
+      "category": "Investing & Valuation",
+      "platform": "Gamma Deck",
+      "source": "finance_dive"
+    },
+    {
+      "url": "https://v0.dev/t/bNDQkdeWpgE",
+      "title": "Create a responsive UI design for an \"Add Article\" page using ...",
+      "snippet": "Category: Label: \"Category\" Input Type: Dropdown/Select Menu Placeholder: \"Select a category\" Options: [\"Technology\", \"Health\", \"Finance\", \"Education\", \"Lifestyle\"] Buttons: Submit Button | A shadcn/ui and v0 generation - v0",
+      "found_via": "site:v0.dev/t finance",
+      "finance_keywords": [
+        "finance"
+      ],
+      "score": 5,
+      "category": "General Finance",
+      "platform": "v0 App",
+      "source": "finance_dive"
+    }
+  ]
+}
