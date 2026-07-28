@@ -39,6 +39,7 @@ Outputs land in `outputs/`.
 | 9 | [docs/08-finance-systems-thinking.md](docs/08-finance-systems-thinking.md) |
 | 10 | [docs/09-ai-finance-transformation.md](docs/09-ai-finance-transformation.md) |
 | 11 | [docs/10-end-to-end-traces.md](docs/10-end-to-end-traces.md) — follow C008 & V002 |
+| 12 | [docs/12-keep-going-private-repo.md](docs/12-keep-going-private-repo.md) — private repo setup + roadmap |
 
 ## Repo layout
 
