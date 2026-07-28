@@ -1,0 +1,28 @@
+# Printable Recipes
+
+Copy into Cursor after filling Variables.
+
+- [01. Explain This Like I'm Not Technical](01-ask-explain.md)
+- [02. Plan a Personal System](02-plan-personal-system.md)
+- [03. Draft an Email in My Voice](03-draft-email.md)
+- [04. Meeting Notes → Action List](04-meeting-to-actions.md)
+- [05. Decision Research Brief](05-research-brief.md)
+- [06. Summarize Links Fairly](06-web-summarize-sources.md)
+- [07. Sandbox File Cleanup](07-sandbox-file-sort.md)
+- [08. Messy List → CSV Tracker](08-notes-to-csv.md)
+- [09. Trip Planner Checklist](09-trip-planner.md)
+- [10. Weekly Admin Sweep](10-weekly-admin.md)
+- [11. Decision One-Pager](11-decision-one-pager.md)
+- [12. Rewrite Keeping My Voice](12-voice-preserve-rewrite.md)
+- [13. Compare Vendors / Services](13-compare-vendors.md)
+- [14. Build a Reusable Template](14-template-builder.md)
+- [15. Inbox Folder Triage](15-inbox-triage.md)
+- [16. Cloud Agent Async Brief](16-cloud-async-job.md)
+- [17. Screenshot Help](17-screenshot-help.md)
+- [18. Weekly Review Ritual](18-weekly-review.md)
+- [19. Draft User Rules From Complaints](19-rule-drafter.md)
+- [20. Teach-Back Check](20-teach-back.md)
+- [21. Family Logistics Board](21-family-logistics.md)
+- [22. Turn How I Do It Into a Mini SOP](22-sop-from-chaos.md)
+- [23. Repurpose One Note Many Ways](23-content-repurpose.md)
+- [24. Debug a Personal Tool](24-bug-personal-tool.md)
