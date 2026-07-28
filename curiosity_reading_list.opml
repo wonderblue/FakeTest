@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="2.0">
+  <head>
+    <title>The Curiosity Vault - Reading List</title>
+    <dateCreated>Tue, 28 Jul 2026 00:00:00 GMT</dateCreated>
+    <ownerName>Curiosity Vault</ownerName>
+  </head>
+  <body>
+    <outline text="1. Kottke Family Tree" title="1. Kottke Family Tree">
+      <outline type="rss" text="kottke.org" title="kottke.org" xmlUrl="https://feeds.kottke.org/main" htmlUrl="https://kottke.org"/>
+      <outline type="rss" text="Tedium" title="Tedium" xmlUrl="https://tedium.co/feed/" htmlUrl="https://tedium.co"/>
+      <outline type="rss" text="Web Curios" title="Web Curios" xmlUrl="https://www.webcurios.co.uk/feed/" htmlUrl="https://www.webcurios.co.uk"/>
+      <outline type="rss" text="The Whippet" title="The Whippet" xmlUrl="https://thewhippet.org/rss/" htmlUrl="https://thewhippet.org"/>
+      <outline type="rss" text="Why Is This Interesting?" title="Why Is This Interesting?" xmlUrl="https://whyisthisinteresting.substack.com/feed" htmlUrl="https://whyisthisinteresting.substack.com"/>
+      <outline type="rss" text="Damn Interesting" title="Damn Interesting" xmlUrl="https://www.damninteresting.com/feed/" htmlUrl="https://www.damninteresting.com"/>
+      <outline type="rss" text="Futility Closet" title="Futility Closet" xmlUrl="https://www.futilitycloset.com/feed/" htmlUrl="https://www.futilitycloset.com"/>
+    </outline>
+    <outline text="2. The Curators" title="2. The Curators">
+      <outline type="rss" text="Recomendo" title="Recomendo" xmlUrl="https://www.recomendo.com/feed" htmlUrl="https://www.recomendo.com"/>
+      <outline type="rss" text="Dense Discovery" title="Dense Discovery" xmlUrl="https://www.densediscovery.com/feed" htmlUrl="https://www.densediscovery.com"/>
+      <outline type="rss" text="Sentiers" title="Sentiers" xmlUrl="https://sentiers.media/rss/" htmlUrl="https://sentiers.media"/>
+      <outline type="rss" text="Numlock News" title="Numlock News" xmlUrl="https://numlock.substack.com/feed" htmlUrl="https://numlocknews.com"/>
+    </outline>
+    <outline text="3. Ideas Institutions" title="3. Ideas Institutions">
+      <outline type="rss" text="The Public Domain Review" title="The Public Domain Review" xmlUrl="https://publicdomainreview.org/rss.xml" htmlUrl="https://publicdomainreview.org"/>
+      <outline type="rss" text="Arts &amp; Letters Daily" title="Arts &amp; Letters Daily" xmlUrl="https://www.aldaily.com/feed/" htmlUrl="https://www.aldaily.com"/>
+      <outline type="rss" text="3 Quarks Daily" title="3 Quarks Daily" xmlUrl="https://3quarksdaily.com/feed" htmlUrl="https://3quarksdaily.com"/>
+      <outline type="rss" text="Lapham's Quarterly" title="Lapham's Quarterly" xmlUrl="https://www.laphamsquarterly.org/rss.xml" htmlUrl="https://www.laphamsquarterly.org"/>
+    </outline>
+    <outline text="4. Science &amp; How-The-World-Works" title="4. Science &amp; How-The-World-Works">
+      <outline type="rss" text="Quanta Magazine" title="Quanta Magazine" xmlUrl="https://www.quantamagazine.org/feed/" htmlUrl="https://www.quantamagazine.org"/>
+      <outline type="rss" text="Nautilus" title="Nautilus" xmlUrl="https://nautil.us/feed/" htmlUrl="https://nautil.us"/>
+      <outline type="rss" text="Construction Physics" title="Construction Physics" xmlUrl="https://www.construction-physics.com/feed" htmlUrl="https://www.construction-physics.com"/>
+      <outline type="rss" text="Low-Tech Magazine" title="Low-Tech Magazine" xmlUrl="https://solar.lowtechmagazine.com/feeds/all-en.atom.xml" htmlUrl="https://solar.lowtechmagazine.com"/>
+      <outline type="rss" text="Hakai Magazine" title="Hakai Magazine" xmlUrl="https://hakaimagazine.com/feed/" htmlUrl="https://hakaimagazine.com"/>
+      <outline type="rss" text="Slime Mold Time Mold" title="Slime Mold Time Mold" xmlUrl="https://slimemoldtimemold.com/feed" htmlUrl="https://slimemoldtimemold.com"/>
+    </outline>
+    <outline text="5. Global &amp; Off-The-Beaten-Path" title="5. Global &amp; Off-The-Beaten-Path">
+      <outline type="rss" text="Rest of World" title="Rest of World" xmlUrl="https://restofworld.org/feed/latest/" htmlUrl="https://restofworld.org"/>
+      <outline type="rss" text="Noema Magazine" title="Noema Magazine" xmlUrl="https://www.noemamag.com/feed/" htmlUrl="https://www.noemamag.com"/>
+      <outline type="rss" text="Psyche" title="Psyche" xmlUrl="https://psyche.co/feed.rss" htmlUrl="https://psyche.co"/>
+      <outline type="rss" text="Aeon" title="Aeon" xmlUrl="https://aeon.co/feed.rss" htmlUrl="https://aeon.co"/>
+      <outline type="rss" text="Works in Progress" title="Works in Progress" xmlUrl="https://worksinprogress.news/feed" htmlUrl="https://www.worksinprogress.co"/>
+    </outline>
+    <outline text="6. Individual Minds" title="6. Individual Minds">
+      <outline type="rss" text="Craig Mod" title="Craig Mod" xmlUrl="https://craigmod.com/index.xml" htmlUrl="https://craigmod.com"/>
+      <outline type="rss" text="The Convivial Society" title="The Convivial Society" xmlUrl="https://theconvivialsociety.substack.com/feed" htmlUrl="https://theconvivialsociety.substack.com"/>
+      <outline type="rss" text="Ribbonfarm" title="Ribbonfarm" xmlUrl="https://www.ribbonfarm.com/feed/" htmlUrl="https://www.ribbonfarm.com"/>
+      <outline type="rss" text="Astral Codex Ten" title="Astral Codex Ten" xmlUrl="https://www.astralcodexten.com/feed" htmlUrl="https://www.astralcodexten.com"/>
+      <outline type="rss" text="The Marginalian" title="The Marginalian" xmlUrl="https://www.themarginalian.org/feed/" htmlUrl="https://www.themarginalian.org"/>
+    </outline>
+  </body>
+</opml>
