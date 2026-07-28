@@ -1,0 +1,5 @@
+# Meridian Finance Learning Lab — requirements
+
+# Stdlib only for core close. Optional extras for notebooks later:
+# pandas>=2.0
+# jupyter>=1.0

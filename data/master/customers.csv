@@ -1,0 +1,26 @@
+customer_id,name,sector,payment_terms,credit_limit
+C001,Acme Industrial,Manufacturing,Net30,100000.00
+C002,BlueHarbor Bank,Financial Services,Net45,250000.00
+C003,Cedar Health Systems,Healthcare,Net30,100000.00
+C004,Delta Logistics NA,Logistics,Net30,100000.00
+C005,Evergreen Retail Co,Retail,Net30,100000.00
+C006,Falcon Aerospace,Aerospace,Net45,100000.00
+C007,Granite Municipal,Public Sector,Net60,100000.00
+C008,HarborPoint Energy,Energy,Net30,100000.00
+C009,Ivory Education Group,Education,Net30,100000.00
+C010,Jade Foods Inc,CPG,Net30,100000.00
+C011,Keystone Insurance,Insurance,Net45,250000.00
+C012,Lumen Media Holdings,Media,Net30,100000.00
+C013,Maple Forestry REIT,Real Estate,Net30,100000.00
+C014,Nova Biotech,Life Sciences,Net30,100000.00
+C015,Orion Telecom,Telecom,Net45,100000.00
+C016,Pioneer Construction,Construction,Net30,100000.00
+C017,Quartz Mining PLC,Materials,Net60,100000.00
+C018,Riverbend Utilities,Utilities,Net30,100000.00
+C019,Summit Hotels Group,Hospitality,Net30,100000.00
+C020,Titan Automotive,Automotive,Net45,100000.00
+C021,Umbra Security LLC,Technology,Net30,100000.00
+C022,Vector Capital Ops,Financial Services,Net30,100000.00
+C023,Willow Nonprofit Org,Nonprofit,Net30,100000.00
+C024,Xenon Semiconductors,Technology,Net30,100000.00
+C025,Yellowstone Parks Co,Hospitality,Net30,100000.00

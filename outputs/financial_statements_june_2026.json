@@ -1,0 +1,328 @@
+{
+  "period": "2026-06",
+  "trial_balance_balanced": true,
+  "trial_balance_debits": 1951158.89,
+  "trial_balance_credits": 1951158.89,
+  "income_statement": {
+    "revenue": {
+      "4100": 201300.0,
+      "4200": 102500.0
+    },
+    "total_revenue": 303800.0,
+    "expenses": {
+      "5100": 33700.0,
+      "6400": 14000.0,
+      "6700": 15200.0,
+      "6300": 20000.0,
+      "6450": 6400.0,
+      "6550": 27600.0,
+      "6100": 333500.0,
+      "6900": 900.0,
+      "6110": 24365.25,
+      "6120": 25000.0,
+      "6500": 5738.89,
+      "6600": 1500.0
+    },
+    "total_expenses": 507904.14,
+    "other_income": {
+      "7100": 420.0
+    },
+    "net_income": -203684.14
+  },
+  "balance_sheet": {
+    "assets": {
+      "1010": 612220.0,
+      "1020": 202134.75,
+      "1100": 262600.0,
+      "1150": -20000.0,
+      "1200": 14700.0,
+      "1300": 77000.0,
+      "1400": 274600.0,
+      "1450": -103738.89
+    },
+    "total_assets": 1319515.86,
+    "liabilities": {
+      "2100": 192900.0,
+      "2200": 43800.0,
+      "2300": 38000.0,
+      "2400": 553500.0,
+      "2500": 8500.0
+    },
+    "total_liabilities": 836700.0,
+    "equity": {
+      "3100": 100000.0,
+      "3200": 382815.86
+    },
+    "total_equity": 482815.86,
+    "total_liabilities_and_equity": 1319515.86,
+    "balances": true
+  },
+  "cash_flow_indirect": {
+    "cash_beginning": 915000.0,
+    "cash_ending": 814354.75,
+    "net_change": -100645.25,
+    "operating": {
+      "net_income": -203684.14,
+      "add_back_depreciation": 5738.89,
+      "add_back_bad_debt_provision": 1500.0,
+      "change_in_ar": 149900.0,
+      "change_in_unbilled_ar": 7300.0,
+      "change_in_prepaid": -29000.0,
+      "change_in_ap": 36900.0,
+      "change_in_accrued_expenses": 1800.0,
+      "change_in_accrued_payroll": -0.0,
+      "change_in_deferred_revenue": -61500.0,
+      "change_in_sales_tax_payable": -0.0,
+      "other_reconciling": 0.0
+    },
+    "operating_total": -91045.25,
+    "investing": {
+      "capex": -9600.0
+    },
+    "financing": {
+      "total": 0.0
+    }
+  },
+  "trial_balance": [
+    {
+      "account": "1010",
+      "name": "Cash - Operating",
+      "type": "Asset",
+      "debit": 612220.0,
+      "credit": 0.0,
+      "net": 612220.0
+    },
+    {
+      "account": "1020",
+      "name": "Cash - Payroll",
+      "type": "Asset",
+      "debit": 202134.75,
+      "credit": 0.0,
+      "net": 202134.75
+    },
+    {
+      "account": "1100",
+      "name": "Accounts Receivable",
+      "type": "Asset",
+      "debit": 262600.0,
+      "credit": 0.0,
+      "net": 262600.0
+    },
+    {
+      "account": "1150",
+      "name": "Allowance for Doubtful Accounts",
+      "type": "Contra-Asset",
+      "debit": 0.0,
+      "credit": 20000.0,
+      "net": -20000.0
+    },
+    {
+      "account": "1200",
+      "name": "Unbilled AR (Contract Asset)",
+      "type": "Asset",
+      "debit": 14700.0,
+      "credit": 0.0,
+      "net": 14700.0
+    },
+    {
+      "account": "1300",
+      "name": "Prepaid Expenses",
+      "type": "Asset",
+      "debit": 77000.0,
+      "credit": 0.0,
+      "net": 77000.0
+    },
+    {
+      "account": "1400",
+      "name": "Fixed Assets - Gross",
+      "type": "Asset",
+      "debit": 274600.0,
+      "credit": 0.0,
+      "net": 274600.0
+    },
+    {
+      "account": "1450",
+      "name": "Accumulated Depreciation",
+      "type": "Contra-Asset",
+      "debit": 0.0,
+      "credit": 103738.89,
+      "net": -103738.89
+    },
+    {
+      "account": "2100",
+      "name": "Accounts Payable",
+      "type": "Liability",
+      "debit": 0.0,
+      "credit": 192900.0,
+      "net": -192900.0
+    },
+    {
+      "account": "2200",
+      "name": "Accrued Expenses",
+      "type": "Liability",
+      "debit": 0.0,
+      "credit": 43800.0,
+      "net": -43800.0
+    },
+    {
+      "account": "2300",
+      "name": "Accrued Payroll & Taxes",
+      "type": "Liability",
+      "debit": 0.0,
+      "credit": 38000.0,
+      "net": -38000.0
+    },
+    {
+      "account": "2400",
+      "name": "Deferred Revenue",
+      "type": "Liability",
+      "debit": 0.0,
+      "credit": 553500.0,
+      "net": -553500.0
+    },
+    {
+      "account": "2500",
+      "name": "Sales Tax Payable",
+      "type": "Liability",
+      "debit": 0.0,
+      "credit": 8500.0,
+      "net": -8500.0
+    },
+    {
+      "account": "3100",
+      "name": "Common Stock",
+      "type": "Equity",
+      "debit": 0.0,
+      "credit": 100000.0,
+      "net": -100000.0
+    },
+    {
+      "account": "3200",
+      "name": "Retained Earnings",
+      "type": "Equity",
+      "debit": 0.0,
+      "credit": 586500.0,
+      "net": -586500.0
+    },
+    {
+      "account": "4100",
+      "name": "SaaS Subscription Revenue",
+      "type": "Revenue",
+      "debit": 0.0,
+      "credit": 201300.0,
+      "net": -201300.0
+    },
+    {
+      "account": "4200",
+      "name": "Professional Services Revenue",
+      "type": "Revenue",
+      "debit": 0.0,
+      "credit": 102500.0,
+      "net": -102500.0
+    },
+    {
+      "account": "5100",
+      "name": "Hosting Cost of Revenue",
+      "type": "Expense",
+      "debit": 33700.0,
+      "credit": 0.0,
+      "net": 33700.0
+    },
+    {
+      "account": "6100",
+      "name": "Salaries & Wages",
+      "type": "Expense",
+      "debit": 333500.0,
+      "credit": 0.0,
+      "net": 333500.0
+    },
+    {
+      "account": "6110",
+      "name": "Payroll Taxes & Benefits",
+      "type": "Expense",
+      "debit": 24365.25,
+      "credit": 0.0,
+      "net": 24365.25
+    },
+    {
+      "account": "6120",
+      "name": "Bonus Expense",
+      "type": "Expense",
+      "debit": 25000.0,
+      "credit": 0.0,
+      "net": 25000.0
+    },
+    {
+      "account": "6300",
+      "name": "Software & Tools",
+      "type": "Expense",
+      "debit": 20000.0,
+      "credit": 0.0,
+      "net": 20000.0
+    },
+    {
+      "account": "6400",
+      "name": "Marketing & Advertising",
+      "type": "Expense",
+      "debit": 14000.0,
+      "credit": 0.0,
+      "net": 14000.0
+    },
+    {
+      "account": "6450",
+      "name": "Travel & Entertainment",
+      "type": "Expense",
+      "debit": 6400.0,
+      "credit": 0.0,
+      "net": 6400.0
+    },
+    {
+      "account": "6500",
+      "name": "Depreciation Expense",
+      "type": "Expense",
+      "debit": 5738.89,
+      "credit": 0.0,
+      "net": 5738.89
+    },
+    {
+      "account": "6550",
+      "name": "Facilities & Office",
+      "type": "Expense",
+      "debit": 27600.0,
+      "credit": 0.0,
+      "net": 27600.0
+    },
+    {
+      "account": "6600",
+      "name": "Bad Debt Expense",
+      "type": "Expense",
+      "debit": 1500.0,
+      "credit": 0.0,
+      "net": 1500.0
+    },
+    {
+      "account": "6700",
+      "name": "Professional Fees",
+      "type": "Expense",
+      "debit": 15200.0,
+      "credit": 0.0,
+      "net": 15200.0
+    },
+    {
+      "account": "6900",
+      "name": "Miscellaneous Expense",
+      "type": "Expense",
+      "debit": 900.0,
+      "credit": 0.0,
+      "net": 900.0
+    },
+    {
+      "account": "7100",
+      "name": "Interest Income",
+      "type": "Other Income",
+      "debit": 0.0,
+      "credit": 420.0,
+      "net": -420.0
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+day,task,owner,status
+-2,Communicate invoice/PO cutoffs,Controller,Done
+-1,Finalize billing run,AR Lead,Done
+0,Period end — freeze operational posting,Controller,Done
+1,Reverse prior accruals; post recurring; depreciation,Staff Accountant,Done
+1,Deferred revenue release,Revenue Accountant,Done
+2,AP/AR subledger final; June accruals,AP/AR Leads,Done
+2,Prepaid amortization; bonus accrual,Staff Accountant,Done
+3,Bank reconciliations,Treasury/Accountant,Done
+3,Control account recons (AR/AP/Deferred/FA),Controller,Done
+4,Flux analysis & management flash,FP&A,Done
+5,Certify & lock period,CFO/Controller,Done

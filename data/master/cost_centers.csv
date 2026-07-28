@@ -1,0 +1,8 @@
+cost_center,name,function
+CC-100,Executive,G&A
+CC-200,Engineering,R&D
+CC-300,Sales,S&M
+CC-400,Customer Success,S&M
+CC-500,Professional Services,Services
+CC-600,Finance & Ops,G&A
+CC-700,Marketing,S&M
