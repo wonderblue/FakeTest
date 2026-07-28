@@ -1,0 +1,13 @@
+{
+  "company": "Meridian CloudWorks, Inc.",
+  "period": "2026-06",
+  "period_end": "2026-06-30",
+  "journal_lines": 190,
+  "journal_debits": 4036289.39,
+  "journal_credits": 4036289.39,
+  "customers": 25,
+  "vendors": 18,
+  "employees": 48,
+  "ar_invoices": 21,
+  "ap_invoices": 15
+}

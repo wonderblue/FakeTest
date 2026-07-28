@@ -1,0 +1,15 @@
+po_id,po_date,vendor_id,amount,description,status
+PO-2026-0001,2026-06-05,V001,48500.00,AWS-style hosting June usage,Received
+PO-2026-0002,2026-06-08,V003,18500.00,Demand gen campaign June,Received
+PO-2026-0003,2026-06-10,V006,9200.00,Contract review retainer,Received
+PO-2026-0004,2026-06-12,V009,7600.00,Managed security June,Received
+PO-2026-0005,2026-06-15,V008,4300.00,Sales travel,Received
+PO-2026-0006,2026-06-16,V010,1200.00,Office supplies,Received
+PO-2026-0007,2026-06-18,V013,2800.00,Utilities June,Received
+PO-2026-0008,2026-06-20,V011,5400.00,Analytics seats,Received
+PO-2026-0009,2026-06-22,V012,15000.00,Exec search fee,Received
+PO-2026-0010,2026-06-24,V017,900.00,Courier,Received
+PO-2026-0011,2026-06-25,V018,1600.00,All-hands catering,Received
+PO-2026-0012,2026-06-27,V014,12000.00,Interim audit work,Received
+PO-2026-0013,2026-06-07,V005,9600.00,4 laptops capitalized,Received
+PO-2026-0014,2026-06-01,V002,36000.00,Northstar CRM annual license,Received

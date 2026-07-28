@@ -1,0 +1,49 @@
+employee_id,name,title,cost_center,monthly_gross,status
+E001,Avery Chen,CEO,CC-100,16000.00,Active
+E002,Blake Nguyen,CFO,CC-600,14000.00,Active
+E003,Casey Ortiz,Controller,CC-600,11000.00,Active
+E004,Dana Brooks,AP Lead,CC-600,7000.00,Active
+E005,Elliot Park,AR Lead,CC-600,7000.00,Active
+E006,Finley Shaw,VP Engineering,CC-200,13000.00,Active
+E007,Gray Employee,Staff,CC-200,8500.00,Active
+E008,Hayes Employee,Staff,CC-200,8200.00,Active
+E009,Ivy Employee,Staff,CC-200,8000.00,Active
+E010,Jordan Employee,Staff,CC-200,7800.00,Active
+E011,Kim Employee,Staff,CC-200,7500.00,Active
+E012,Lee Employee,Staff,CC-200,7200.00,Active
+E013,Morgan Employee,Staff,CC-200,7000.00,Active
+E014,Nash Employee,Staff,CC-200,6800.00,Active
+E015,Owen Employee,Staff,CC-200,6500.00,Active
+E016,Patel Employee,Staff,CC-200,6400.00,Active
+E017,Quinn Employee,Staff,CC-200,6200.00,Active
+E018,Reed Employee,Staff,CC-200,6000.00,Active
+E019,Sage Employee,Staff,CC-200,5800.00,Active
+E020,Taylor Employee,Staff,CC-200,5600.00,Active
+E021,Underwood Employee,Staff,CC-200,5500.00,Active
+E022,Vega Employee,Staff,CC-200,5400.00,Active
+E023,Wade Employee,Staff,CC-300,6500.00,Active
+E024,Xu Employee,Staff,CC-300,6400.00,Active
+E025,Young Employee,Staff,CC-300,6200.00,Active
+E026,Zane Employee,Staff,CC-300,6000.00,Active
+E027,Adler Employee,Staff,CC-300,5800.00,Active
+E028,Bell Employee,Staff,CC-300,5600.00,Active
+E029,Cruz Employee,Staff,CC-300,5500.00,Active
+E030,Drew Employee,Staff,CC-300,5400.00,Active
+E031,Ellis Employee,Staff,CC-400,6000.00,Active
+E032,Frost Employee,Staff,CC-400,5800.00,Active
+E033,Gill Employee,Staff,CC-400,5600.00,Active
+E034,Hunt Employee,Staff,CC-400,5400.00,Active
+E035,Ingram Employee,Staff,CC-400,5200.00,Active
+E036,Jules Employee,Staff,CC-400,5000.00,Active
+E037,Knox Employee,Staff,CC-500,6200.00,Active
+E038,Lane Employee,Staff,CC-500,6000.00,Active
+E039,Moss Employee,Staff,CC-500,5800.00,Active
+E040,Noel Employee,Staff,CC-500,5600.00,Active
+E041,Oak Employee,Staff,CC-500,5400.00,Active
+E042,Page Employee,Staff,CC-500,5200.00,Active
+E043,Rios Employee,Staff,CC-500,5000.00,Active
+E044,Shea Employee,Staff,CC-500,4800.00,Active
+E045,True Employee,Staff,CC-700,4600.00,Active
+E046,Voss Employee,Staff,CC-700,4500.00,Active
+E047,West Employee,Staff,CC-700,4400.00,Active
+E048,York Employee,Staff,CC-700,4200.00,Active

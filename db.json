@@ -1,14 +1,21 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
+  "company": {
+    "name": "Meridian CloudWorks, Inc.",
+    "entity_id": "MCW-US",
+    "period": "2026-06",
+    "purpose": "Synthetic finance learning lab for R2R / P2P / O2C"
+  },
+  "process_cycles": [
+    {"code": "R2R", "name": "Record to Report"},
+    {"code": "P2P", "name": "Procure to Pay", "alias": ["AP", "PTP"]},
+    {"code": "O2C", "name": "Order to Cash", "alias": ["AR", "OTC"]},
+    {"code": "H2R", "name": "Hire to Retire"},
+    {"code": "A2R", "name": "Acquire to Retire (Fixed Assets)"},
+    {"code": "TREASURY", "name": "Cash & Bank"},
+    {"code": "B2R", "name": "Budget to Report (FP&A)"}
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  "how_to_run": [
+    "python3 -m src.r2r_close",
+    "python3 -m src.validate"
+  ]
 }

@@ -1,0 +1,41 @@
+account,name,type,normal_balance,fs_caption,active,control_account
+1000,Current Assets,Header,Debit,BS,Y,N
+1010,Cash - Operating,Asset,Debit,BS,Y,Y
+1020,Cash - Payroll,Asset,Debit,BS,Y,Y
+1100,Accounts Receivable,Asset,Debit,BS,Y,Y
+1150,Allowance for Doubtful Accounts,Contra-Asset,Credit,BS,Y,Y
+1200,Unbilled AR (Contract Asset),Asset,Debit,BS,Y,Y
+1300,Prepaid Expenses,Asset,Debit,BS,Y,Y
+1400,Fixed Assets - Gross,Asset,Debit,BS,Y,Y
+1450,Accumulated Depreciation,Contra-Asset,Credit,BS,Y,Y
+2000,Current Liabilities,Header,Credit,BS,Y,N
+2100,Accounts Payable,Liability,Credit,BS,Y,Y
+2200,Accrued Expenses,Liability,Credit,BS,Y,Y
+2300,Accrued Payroll & Taxes,Liability,Credit,BS,Y,Y
+2400,Deferred Revenue,Liability,Credit,BS,Y,Y
+2500,Sales Tax Payable,Liability,Credit,BS,Y,Y
+3000,Equity,Header,Credit,BS,Y,N
+3100,Common Stock,Equity,Credit,BS,Y,N
+3200,Retained Earnings,Equity,Credit,BS,Y,N
+4000,Revenue,Header,Credit,IS,Y,N
+4100,SaaS Subscription Revenue,Revenue,Credit,IS,Y,N
+4200,Professional Services Revenue,Revenue,Credit,IS,Y,N
+4300,Other Revenue,Revenue,Credit,IS,Y,N
+5000,Cost of Revenue,Header,Debit,IS,Y,N
+5100,Hosting Cost of Revenue,Expense,Debit,IS,Y,N
+5200,Services Delivery Cost,Expense,Debit,IS,Y,N
+6000,Operating Expenses,Header,Debit,IS,Y,N
+6100,Salaries & Wages,Expense,Debit,IS,Y,N
+6110,Payroll Taxes & Benefits,Expense,Debit,IS,Y,N
+6120,Bonus Expense,Expense,Debit,IS,Y,N
+6200,Cloud Hosting (non-COR),Expense,Debit,IS,Y,N
+6300,Software & Tools,Expense,Debit,IS,Y,N
+6400,Marketing & Advertising,Expense,Debit,IS,Y,N
+6450,Travel & Entertainment,Expense,Debit,IS,Y,N
+6500,Depreciation Expense,Expense,Debit,IS,Y,N
+6550,Facilities & Office,Expense,Debit,IS,Y,N
+6600,Bad Debt Expense,Expense,Debit,IS,Y,N
+6700,Professional Fees,Expense,Debit,IS,Y,N
+6900,Miscellaneous Expense,Expense,Debit,IS,Y,N
+7100,Interest Income,Other Income,Credit,IS,Y,N
+7200,Interest Expense,Other Expense,Debit,IS,Y,N

@@ -1,0 +1,22 @@
+invoice_id,invoice_date,customer_id,product,description,amount,tax,total,status,due_date,revenue_treatment
+INV-2026-0001,2026-06-01,C008,PL-SAAS,Nimbus annual subscription Jun26-May27,60000.00,0.00,60000.00,Open,2026-07-01,deferred
+INV-2026-0002,2026-06-30,C007,PL-SAAS,Nimbus monthly subscription June 2026,6500.00,0.00,6500.00,Open,2026-07-30,recognize_on_bill
+INV-2026-0003,2026-06-30,C009,PL-SAAS,Nimbus monthly subscription June 2026,4200.00,0.00,4200.00,Open,2026-07-30,recognize_on_bill
+INV-2026-0004,2026-06-30,C010,PL-SAAS,Nimbus monthly subscription June 2026,7800.00,0.00,7800.00,Open,2026-07-30,recognize_on_bill
+INV-2026-0005,2026-06-30,C012,PL-SAAS,Nimbus monthly subscription June 2026,9100.00,0.00,9100.00,Open,2026-07-30,recognize_on_bill
+INV-2026-0006,2026-06-30,C013,PL-SAAS,Nimbus monthly subscription June 2026,3500.00,0.00,3500.00,Open,2026-07-30,recognize_on_bill
+INV-2026-0007,2026-06-30,C016,PL-SAAS,Nimbus monthly subscription June 2026,5600.00,0.00,5600.00,Open,2026-07-30,recognize_on_bill
+INV-2026-0008,2026-06-30,C017,PL-SAAS,Nimbus monthly subscription June 2026,4800.00,0.00,4800.00,Open,2026-07-30,recognize_on_bill
+INV-2026-0009,2026-06-30,C018,PL-SAAS,Nimbus monthly subscription June 2026,6200.00,0.00,6200.00,Open,2026-07-30,recognize_on_bill
+INV-2026-0010,2026-06-30,C019,PL-SAAS,Nimbus monthly subscription June 2026,5400.00,0.00,5400.00,Open,2026-07-30,recognize_on_bill
+INV-2026-0011,2026-06-30,C021,PL-SAAS,Nimbus monthly subscription June 2026,11000.00,0.00,11000.00,Open,2026-07-30,recognize_on_bill
+INV-2026-0012,2026-06-30,C022,PL-SAAS,Nimbus monthly subscription June 2026,8700.00,0.00,8700.00,Open,2026-07-30,recognize_on_bill
+INV-2026-0013,2026-06-30,C023,PL-SAAS,Nimbus monthly subscription June 2026,2900.00,0.00,2900.00,Open,2026-07-30,recognize_on_bill
+INV-2026-0014,2026-06-30,C025,PL-SAAS,Nimbus monthly subscription June 2026,4100.00,0.00,4100.00,Open,2026-07-30,recognize_on_bill
+INV-2026-0015,2026-06-25,C001,PL-SVC,Implementation milestone 3 (PRJ-1042),28000.00,0.00,28000.00,Open,2026-07-25,recognize_on_bill
+INV-2026-0016,2026-06-25,C003,PL-SVC,Integration T&M June (PRJ-1108),15500.00,0.00,15500.00,Open,2026-07-25,recognize_on_bill
+INV-2026-0017,2026-06-25,C014,PL-SVC,Data migration milestone (PRJ-1180),22000.00,0.00,22000.00,Open,2026-07-25,recognize_on_bill
+INV-2026-0018,2026-06-25,C006,PL-SVC,Advisory T&M (PRJ-1201),9800.00,0.00,9800.00,Open,2026-07-25,recognize_on_bill
+INV-2026-0019,2026-06-25,C020,PL-SVC,Training package (PRJ-1215),12500.00,0.00,12500.00,Open,2026-07-25,recognize_on_bill
+INV-2026-0020,2026-06-05,C002,PL-SVC,Bill prior unbilled PRJ-1088,12000.00,0.00,12000.00,Open,2026-07-05,clear_unbilled
+INV-2026-0021,2026-06-05,C015,PL-SVC,Bill prior unbilled PRJ-1099,10000.00,0.00,10000.00,Open,2026-07-05,clear_unbilled

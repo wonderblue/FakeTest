@@ -1,0 +1,31 @@
+account,name,type,debit,credit,net
+1010,Cash - Operating,Asset,612220.0,0.0,612220.0
+1020,Cash - Payroll,Asset,202134.75,0.0,202134.75
+1100,Accounts Receivable,Asset,262600.0,0.0,262600.0
+1150,Allowance for Doubtful Accounts,Contra-Asset,0.0,20000.0,-20000.0
+1200,Unbilled AR (Contract Asset),Asset,14700.0,0.0,14700.0
+1300,Prepaid Expenses,Asset,77000.0,0.0,77000.0
+1400,Fixed Assets - Gross,Asset,274600.0,0.0,274600.0
+1450,Accumulated Depreciation,Contra-Asset,0.0,103738.89,-103738.89
+2100,Accounts Payable,Liability,0.0,192900.0,-192900.0
+2200,Accrued Expenses,Liability,0.0,43800.0,-43800.0
+2300,Accrued Payroll & Taxes,Liability,0.0,38000.0,-38000.0
+2400,Deferred Revenue,Liability,0.0,553500.0,-553500.0
+2500,Sales Tax Payable,Liability,0.0,8500.0,-8500.0
+3100,Common Stock,Equity,0.0,100000.0,-100000.0
+3200,Retained Earnings,Equity,0.0,586500.0,-586500.0
+4100,SaaS Subscription Revenue,Revenue,0.0,201300.0,-201300.0
+4200,Professional Services Revenue,Revenue,0.0,102500.0,-102500.0
+5100,Hosting Cost of Revenue,Expense,33700.0,0.0,33700.0
+6100,Salaries & Wages,Expense,333500.0,0.0,333500.0
+6110,Payroll Taxes & Benefits,Expense,24365.25,0.0,24365.25
+6120,Bonus Expense,Expense,25000.0,0.0,25000.0
+6300,Software & Tools,Expense,20000.0,0.0,20000.0
+6400,Marketing & Advertising,Expense,14000.0,0.0,14000.0
+6450,Travel & Entertainment,Expense,6400.0,0.0,6400.0
+6500,Depreciation Expense,Expense,5738.89,0.0,5738.89
+6550,Facilities & Office,Expense,27600.0,0.0,27600.0
+6600,Bad Debt Expense,Expense,1500.0,0.0,1500.0
+6700,Professional Fees,Expense,15200.0,0.0,15200.0
+6900,Miscellaneous Expense,Expense,900.0,0.0,900.0
+7100,Interest Income,Other Income,0.0,420.0,-420.0

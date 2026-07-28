@@ -1,0 +1,6 @@
+accrual_id,vendor_id,account,cost_center,amount,description,auto_reverse
+ACC-2026-06-01,V001,5100,CC-200,5200.00,Hosting late usage estimate,Y
+ACC-2026-06-03,V003,6400,CC-700,7500.00,Agency work not yet invoiced,Y
+ACC-2026-06-05,V006,6700,CC-600,4000.00,Legal work in progress,Y
+ACC-2026-06-07,V008,6450,CC-300,2100.00,Unsubmitted T&E,Y
+ACC-2026-06-BONUS,,6120,CC-100,25000.00,Q2 bonus accrual,N

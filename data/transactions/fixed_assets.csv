@@ -1,0 +1,6 @@
+asset_id,description,cost,accum_dep_begin,useful_life_months,monthly_dep,cost_center
+FA-001,Office buildout,120000.00,48000.00,60,2000.00,CC-600
+FA-002,Servers & network,85000.00,34000.00,36,2361.11,CC-200
+FA-003,Furniture,35000.00,14000.00,84,416.67,CC-600
+FA-004,Prior laptops pool,25000.00,2000.00,36,694.44,CC-200
+FA-005,June laptop purchase (4),9600.00,0.00,36,266.67,CC-200
