@@ -23,7 +23,7 @@ OUTPUT_PATH: {{OUTPUT_PATH}}
 ```
 
 ## Done when
-It sounds like Carson, not a brochure.
+It sounds like me, not a brochure.
 
 ## Safety
 Check that meaning didn't shift on commitments.

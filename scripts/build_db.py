@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Generate Carson Cursor Daily Driver learning data for db.json."""
+"""Generate Cursor Daily Driver learning data for db.json."""
 
 from __future__ import annotations
 
@@ -13,10 +13,10 @@ def meta():
     return [
         {
             "id": 1,
-            "name": "Carson Cursor Daily Driver",
+            "name": "Cursor Daily Driver",
             "version": "1.0.0",
             "description": (
-                "A spoon-fed 21-day mastery path that turns Cursor into Carson's "
+                "A spoon-fed 21-day mastery path that turns Cursor into your "
                 "daily driver for personal work, web activity, and automation — "
                 "written for a non-technical layman."
             ),
@@ -29,10 +29,10 @@ def work_plan():
     return [
         {
             "id": 1,
-            "product": "Carson Cursor Daily Driver",
+            "product": "Cursor Daily Driver",
             "tagline": "Make Cursor your personal operating system — without becoming a programmer",
             "audience": (
-                "Carson (and anyone like him): smart, busy, non-technical. "
+                "You: smart, busy, non-technical. "
                 "You want AI to handle writing, research, organizing, web chores, "
                 "and repeatable personal workflows — safely and confidently."
             ),
@@ -52,7 +52,7 @@ def work_plan():
                 "Week 1: install, modes, prompting, safety",
                 "Week 2: context, rules, recipes for personal work & web",
                 "Week 3: skills, MCP, Cloud Agents, daily-driver OS, capstone",
-                "Keep a 'Carson Wins' folder of prompts that worked",
+                "Keep a 'Wins' folder of prompts that worked",
             ],
             "rulesOfEngagement": [
                 "Speak like a boss giving a clear brief — not like you're coding",
@@ -63,7 +63,7 @@ def work_plan():
                 "Pass score is 80% (85% on Capstone Mastery)",
             ],
             "persona": {
-                "name": "Carson",
+                "name": "You",
                 "role": "Non-technical professional / life operator",
                 "goals": [
                     "Automate personal admin and knowledge work",
@@ -90,14 +90,14 @@ def study_plan():
           ("quiz", "quiz-orientation", "Quiz: Orientation")],
          "Without notes: explain Cursor in one sentence to a friend.", None),
         (2, 1, "Your Workspace = Your Stuff in One Folder", "Orientation", 55,
-         ["Create Carson's Personal Ops folder structure", "Know where files live", "Open a folder in Cursor confidently"],
+         ["Create your Personal Ops folder structure", "Know where files live", "Open a folder in Cursor confidently"],
          [("read", "module-2", "Read Module 2: Folders, Files & Opening a Project"),
           ("flashcards", "workspace", "Flashcards: workspace literacy"),
           ("practice", "folder-setup", "Practice: Build the Personal Ops tree"),
           ("quiz", "quiz-workspace", "Quiz: Workspace")],
          "Draw your folder tree on paper and open it in Cursor.", "workspace-ready"),
         (3, 1, "The Four Modes (Plain English)", "Modes", 60,
-         ["Name Ask / Plan / Agent / Debug", "Match each mode to a real Carson task", "Practice switching modes"],
+         ["Name Ask / Plan / Agent / Debug", "Match each mode to a real personal task", "Practice switching modes"],
          [("read", "module-3", "Read Module 3: Modes Without Jargon"),
           ("flashcards", "modes", "Flashcards: modes"),
           ("practice", "mode-picker", "Practice: Mode picker scenarios"),
@@ -130,12 +130,12 @@ def study_plan():
           ("flashcards", "week1-review", "Flashcards: Week 1 review"),
           ("practice", "week1-capstone", "Practice: Week 1 personal win"),
           ("quiz", "quiz-week1", "Quiz: Week 1 Mixed")],
-         "Save your winning prompt + result into Carson Wins/.", "week1-operator"),
-        (8, 2, "User Rules — Teach Cursor Who Carson Is", "Rules", 60,
+         "Save your winning prompt + result into Wins/.", "week1-operator"),
+        (8, 2, "User Rules — Teach Cursor Who You Are", "Rules", 60,
          ["Write global User Rules in plain English", "Keep rules short", "Test that Cursor follows them"],
          [("read", "module-8", "Read Module 8: User Rules = Standing Orders"),
           ("flashcards", "rules", "Flashcards: rules & skills"),
-          ("practice", "user-rules", "Practice: Draft Carson's User Rules"),
+          ("practice", "user-rules", "Practice: Draft your User Rules"),
           ("quiz", "quiz-rules", "Quiz: Rules")],
          "Install 5–10 User Rules and run a writing task that must obey them.", "standing-orders"),
         (9, 2, "Project Rules & AGENTS.md", "Rules", 55,
@@ -173,7 +173,7 @@ def study_plan():
           ("practice", "life-recipes", "Practice: Life ops recipe lab"),
           ("quiz", "quiz-life", "Quiz: Life ops")],
          "Build one trip plan OR one weekly admin checklist you'll reuse.", "life-ops"),
-        (14, 2, "Week 2 Capstone — Carson Personal Ops Kit", "Capstone", 80,
+        (14, 2, "Week 2 Capstone — Personal Ops Kit", "Capstone", 80,
          ["Assemble your Recipe Kit", "Document Variables you always fill", "Run a multi-step personal project"],
          [("read", "module-14", "Read Module 14: Assemble Your Ops Kit"),
           ("flashcards", "week2-review", "Flashcards: Week 2 review"),
@@ -188,7 +188,7 @@ def study_plan():
           ("quiz", "quiz-skills", "Quiz: Skills")],
          "Create and run at least one real slash-style workflow document.", "skill-builder"),
         (16, 3, "MCP — Connect the Apps You Already Use", "MCP", 70,
-         ["Explain MCP like a power strip for apps", "Browse Marketplace ideas", "Pick 2 integrations Carson would use"],
+         ["Explain MCP like a power strip for apps", "Browse Marketplace ideas", "Pick 2 integrations you would use"],
          [("read", "module-16", "Read Module 16: MCP Without Fear"),
           ("flashcards", "skills", "Flashcards: skills & MCP"),
           ("practice", "mcp-plan", "Practice: MCP connection plan"),
@@ -222,14 +222,14 @@ def study_plan():
           ("practice", "review-lab", "Practice: Review checklist lab"),
           ("quiz", "quiz-advanced", "Quiz: Advanced")],
          "Complete one Plan→Approve→Build cycle on a real mini-project.", "power-user"),
-        (21, 3, "Capstone — Carson Is the Daily Driver", "Capstone", 90,
+        (21, 3, "Capstone — Cursor Is Your Daily Driver", "Capstone", 90,
          ["Pass Capstone Mastery", "Ship your Personal OS README", "Commit to a 30-day maintenance loop"],
          [("read", "module-21", "Read Module 21: Mastery & Maintenance"),
           ("flashcards", "capstone", "Flashcards: capstone"),
           ("practice", "final-capstone", "Practice: Personal OS README"),
           ("quiz", "quiz-capstone", "Quiz: Capstone Mastery"),
           ("visa", "cursor-expert", "Stamp final visas")],
-         "You can teach a friend your Carson Cursor OS in 10 minutes.", "cursor-expert"),
+         "You can teach a friend your Cursor OS in 10 minutes.", "cursor-expert"),
     ]
 
     out = []
@@ -291,7 +291,7 @@ def modules():
                     "body": (
                         "You are the boss. Cursor is the assistant. Good bosses give clear goals, point at "
                         "the right documents, set limits ('do not delete anything'), and review the work. "
-                        "Bad bosses say 'fix my life' and get surprised. This whole course trains Carson "
+                        "Bad bosses say 'fix my life' and get surprised. This whole course trains you "
                         "to be a great boss of AI."
                     ),
                 },
@@ -308,7 +308,7 @@ def modules():
                     "heading": "What you still own",
                     "body": (
                         "Judgment, truth-checking, private data, money decisions, and final sends. Cursor "
-                        "can draft the email; Carson decides whether to hit send. That partnership is the "
+                        "can draft the email; you decide whether to hit send. That partnership is the "
                         "daily driver."
                     ),
                 },
@@ -336,7 +336,7 @@ def modules():
                     "body": (
                         "Cursor works best when you open a folder (Cursor calls this a project or workspace). "
                         "Think of it as putting all the papers for a job onto one desk. Create a folder named "
-                        "something like Carson-Personal-Ops and keep your life-ops materials there."
+                        "something like Personal-Ops and keep your life-ops materials there."
                     ),
                 },
                 {
@@ -351,7 +351,7 @@ def modules():
                 {
                     "heading": "How to open it",
                     "body": (
-                        "In Cursor: File → Open Folder → select Carson-Personal-Ops. On the left you will see "
+                        "In Cursor: File → Open Folder → select Personal-Ops. On the left you will see "
                         "your files. That sidebar is your map. If you ever feel lost, click the top folder name "
                         "and breathe — everything for this system lives here."
                     ),
@@ -371,7 +371,7 @@ def modules():
                 "Markdown notes are the sweet spot for beginners",
             ],
             "selfCheck": [
-                "Is Carson-Personal-Ops open in Cursor right now?",
+                "Is Personal-Ops open in Cursor right now?",
                 "Can I find Inbox, Recipes, and Wins in the sidebar?",
             ],
         },
@@ -416,7 +416,7 @@ def modules():
                     ),
                 },
                 {
-                    "heading": "Carson's default path",
+                    "heading": "Your default path",
                     "body": (
                         "Unclear → Ask. Multi-step new system → Plan then Agent. Small known task → Agent. "
                         "Weird breakage → Debug. When in doubt, start in Ask for 2 minutes, then switch."
@@ -453,7 +453,7 @@ def modules():
                     "heading": "Variables make briefs reusable",
                     "body": (
                         "Variables are fill-in-the-blank slots like {{GOAL}}, {{AUDIENCE}}, {{TONE}}, "
-                        "{{DEADLINE}}. Recipes in this course use them so Carson can copy a prompt and swap "
+                        "{{DEADLINE}}. Recipes in this course use them so you can copy a prompt and swap "
                         "only the blanks. Treat Variables like Mad Libs for productivity."
                     ),
                 },
@@ -625,7 +625,7 @@ def modules():
             "id": 8,
             "slug": "module-8",
             "title": "User Rules = Standing Orders",
-            "subtitle": "Teach Cursor Carson's preferences once",
+            "subtitle": "Teach Cursor your preferences once",
             "level": "systems",
             "readMinutes": 12,
             "sections": [
@@ -729,7 +729,7 @@ def modules():
                     ),
                 },
                 {
-                    "heading": "Document types Carson will reuse",
+                    "heading": "Document types you will reuse",
                     "body": (
                         "Email, apology/repair note, meeting agenda, decision one-pager, newsletter blurb, "
                         "bio/about blurb, FAQ. Each gets a Recipe with Variables."
@@ -772,7 +772,7 @@ def modules():
                 {
                     "heading": "From research to action",
                     "body": (
-                        "End every research job with: Decision needed from Carson, Recommended next step, "
+                        "End every research job with: Decision you need to make, Recommended next step, "
                         "Open questions. Research without a decision hook becomes trivia."
                     ),
                 },
@@ -780,7 +780,7 @@ def modules():
             "keyTakeaways": [
                 "Question + decision + sources",
                 "No invented citations",
-                "Always end with what Carson must decide",
+                "Always end with what you must decide",
             ],
             "selfCheck": [
                 "Can I spot a hallucinated-sounding claim?",
@@ -813,7 +813,7 @@ def modules():
                     "heading": "Tables & CSV",
                     "body": (
                         "Paste a messy list and ask for CSV with clear columns. Open in Sheets/Excel. This is "
-                        "how non-tech Carson builds trackers without 'building an app' on day one."
+                        "how a non-tech user builds trackers without 'building an app' on day one."
                     ),
                 },
             ],
@@ -852,7 +852,7 @@ def modules():
                 {
                     "heading": "Human gates",
                     "body": (
-                        "Mark steps that require Carson: book payment, call doctor, confirm with spouse. "
+                        "Mark steps that require you: book payment, call doctor, confirm with spouse. "
                         "AI should never silently 'decide' those."
                     ),
                 },
@@ -879,7 +879,7 @@ def modules():
                     "heading": "What belongs in the kit",
                     "body": (
                         "Recipes/, Variables cheat sheet, voice samples, templates, Never-Paste list, "
-                        "AGENTS.md, and a 'How Carson uses Cursor' one-pager."
+                        "AGENTS.md, and a 'How I use Cursor' one-pager."
                     ),
                 },
                 {
@@ -922,7 +922,7 @@ def modules():
                     ),
                 },
                 {
-                    "heading": "Design three Carson skills",
+                    "heading": "Design three personal skills",
                     "body": (
                         "/inbox-triage (sort notes into folders), /meeting-to-actions, /weekend-plan. Write "
                         "them as SKILL.md-style steps even if you store them as Recipes first."
@@ -1155,14 +1155,14 @@ def modules():
             "id": 21,
             "slug": "module-21",
             "title": "Mastery & Maintenance",
-            "subtitle": "Carson as Cursor daily driver — forever loop",
+            "subtitle": "Cursor as your daily driver — forever loop",
             "level": "mastery",
             "readMinutes": 10,
             "sections": [
                 {
                     "heading": "What 'expert' means here",
                     "body": (
-                        "Not writing compilers. Expert Carson: picks modes instinctively, briefs with Variables, "
+                        "Not writing compilers. An expert: picks modes instinctively, briefs with Variables, "
                         "runs Recipes, maintains rules/skills, uses cloud for async, reviews ruthlessly, and "
                         "teaches a friend the system."
                     ),
@@ -1196,7 +1196,7 @@ def modules():
 
 
 def variables():
-    """Fill-in-the-blank slots Carson uses in every Recipe."""
+    """Fill-in-the-blank slots you use in every Recipe."""
     items = [
         ("GOAL", "What success looks like in one sentence", "Draft a polite follow-up email about the invoice"),
         ("CONTEXT", "Background the assistant needs", "We met Tuesday; they promised payment by Friday"),
@@ -1212,12 +1212,12 @@ def variables():
         ("PRIORITY", "What matters most if tradeoffs", "Clarity over cleverness; speed over perfect prose"),
         ("TOOLS", "Integrations allowed", "Use web search; do not post to Slack"),
         ("BUDGET", "Money ceiling", "Trip ideas under $1,800 total excluding flights already booked"),
-        ("PEOPLE", "Who is involved", "Carson + Sam + two kids (ages 7 and 10)"),
+        ("PEOPLE", "Who is involved", "Me + Sam + two kids (ages 7 and 10)"),
         ("LOCATION", "Place constraints", "Walkable downtown Lisbon; avoid rental car if possible"),
         ("DATES", "Time window", "Fri Oct 10 evening → Tue Oct 14 noon"),
         ("RISK_TOLERANCE", "How careful to be", "Sandbox file moves only; no trash"),
         ("UNKNOWN_POLICY", "What to do when unsure", "List unknowns explicitly; never fabricate sources"),
-        ("REVIEW_GATE", "What needs Carson's eyes", "Any sentence that promises payment dates or legal claims"),
+        ("REVIEW_GATE", "What needs my eyes", "Any sentence that promises payment dates or legal claims"),
         ("INPUT_DUMP", "Raw notes paste zone", "Paste messy bullets here without cleaning"),
         ("OUTPUT_PATH", "Where to save", "Save to Projects/vendor-followup/draft.md"),
         ("LANGUAGE", "Language of output", "US English"),
@@ -1264,7 +1264,7 @@ def recipes():
 GOAL: {{GOAL}}
 CONTEXT: {{CONTEXT}}
 FILES: {{FILES}}
-AUDIENCE: Carson — non-technical
+AUDIENCE: me — non-technical
 CONSTRAINTS:
 - No jargon without a plain-English translation in parentheses
 - Do not invent facts
@@ -1345,7 +1345,7 @@ FORMAT:
 - Options compared (table if helpful)
 - Pros/cons
 - Risks
-- Recommendation + what Carson must decide
+- Recommendation + what you must decide
 - Sources list
 SUCCESS_CRITERIA: {{SUCCESS_CRITERIA}}""",
             ["GOAL", "DOMAIN", "AUDIENCE", "DATES", "BUDGET", "CONSTRAINTS", "SUCCESS_CRITERIA"],
@@ -1460,7 +1460,7 @@ TONE: {{TONE}}
 CONSTRAINTS: Keep my meaning; flag any factual changes
 OUTPUT_PATH: {{OUTPUT_PATH}}""",
             ["EXAMPLES", "INPUT_DUMP", "TONE", "OUTPUT_PATH"],
-            "It sounds like Carson, not a brochure.",
+            "It sounds like me, not a brochure.",
             "Check that meaning didn't shift on commitments.",
         ),
         R(
@@ -1738,10 +1738,10 @@ def flashcards():
 
     # basics
     for front, back, hint in [
-        ("What is Cursor in one sentence (Carson version)?", "A powerful AI assistant that works inside your folders to help with writing, research, organizing, and repeatable computer tasks — you manage it with clear briefs and review.", "boss/assistant"),
-        ("What is Carson's job vs Cursor's job?", "Carson: goals, constraints, judgment, final sends. Cursor: draft, organize, propose, execute approved steps.", ""),
+        ("What is Cursor in one sentence (plain version)?", "A powerful AI assistant that works inside your folders to help with writing, research, organizing, and repeatable computer tasks — you manage it with clear briefs and review.", "boss/assistant"),
+        ("What is your job vs Cursor's job?", "you: goals, constraints, judgment, final sends. Cursor: draft, organize, propose, execute approved steps.", ""),
         ("Do you need to code to benefit?", "No. Clear English briefs + review habits are the core skill.", ""),
-        ("What folder should Carson open first?", "A dedicated Personal Ops folder (home base), not random Desktop files alone.", "Open Folder"),
+        ("What folder should you open first?", "A dedicated Personal Ops folder (home base), not random Desktop files alone.", "Open Folder"),
         ("Name three things Cursor is great at for non-tech users.", "Drafting writing; summarizing/research briefs; organizing files/templates with approval.", ""),
         ("What should you save after a win?", "The prompt (Recipe) + the output into Wins/ — the prompt is the reusable asset.", ""),
         ("What is a Recipe?", "A copy-paste prompt template with {{Variables}} for a recurring job.", "Mad Libs"),
@@ -1783,7 +1783,7 @@ def flashcards():
         ("Can you switch modes mid-task?", "Yes.", ""),
         ("Plan Mode tip if build goes wrong?", "Revert, refine the plan, rerun — often faster than patching.", ""),
         ("Which mode invents fewer unwanted file changes?", "Ask (and Plan before approve).", ""),
-        ("Carson default path?", "Unclear→Ask; system→Plan→Agent; small→Agent; broken→Debug.", ""),
+        ("you default path?", "Unclear→Ask; system→Plan→Agent; small→Agent; broken→Debug.", ""),
         ("Do rules apply across modes?", "Yes — project/user/team rules apply in Agent, Ask, Plan, Debug.", "docs"),
     ]:
         add("modes", front, back, hint)
@@ -1799,7 +1799,7 @@ def flashcards():
         ("Stronger prompt includes?", "Audience, tone, length, context, constraints, output path.", ""),
         ("Variables are like?", "Mad Libs blanks for productivity.", ""),
         ("INPUT_DUMP is for?", "Pasting messy raw notes without pre-cleaning.", ""),
-        ("REVIEW_GATE marks?", "Parts Carson must personally approve (money, legal, sends).", ""),
+        ("REVIEW_GATE marks?", "Parts you must personally approve (money, legal, sends).", ""),
         ("PRIORITY Variable helps when?", "Tradeoffs — what matters most if not everything fits.", ""),
         ("FORMAT Variable examples?", "Checklist, CSV, one-pager, table, subject+body.", ""),
         ("UNKNOWN_POLICY should say?", "Don't invent; label unknowns/confidence.", ""),
@@ -1879,7 +1879,7 @@ def flashcards():
         ("Life ops prefer what format?", "Checklists with owners and due dates.", ""),
         ("Research must end with?", "Decision needed + next step + open questions.", ""),
         ("CSV is a bridge to?", "Trackers without building a full app day one.", ""),
-        ("Human gates mark?", "Steps only Carson should do.", ""),
+        ("Human gates mark?", "Steps only you should do.", ""),
     ]:
         add("recipes", front, back, hint)
 
@@ -1904,7 +1904,7 @@ def flashcards():
         ("Inbox triage output?", "Table file→destination→why", ""),
         ("SOP means?", "Standard Operating Procedure — documented how-to.", ""),
         ("Template builder success?", "You reused it without thinking.", ""),
-        ("Automation for Carson starts as?", "Repeatable prompts + file conventions — not fancy robots.", ""),
+        ("Automation for you starts as?", "Repeatable prompts + file conventions — not fancy robots.", ""),
         ("CSV success check?", "Opens cleanly with clear headers.", ""),
         ("Never allow Agent to?", "Unsupervised permanent deletes on originals.", ""),
         ("Put naming rules in?", "AGENTS.md / project rules", ""),
@@ -1931,7 +1931,7 @@ def flashcards():
         ("Week 2 themes?", "Rules, writing, research, files, life ops, kit", ""),
         ("Decision one-pager sections?", "Context/Options/Criteria/Recommendation/Risks", ""),
         ("Sandbox still required?", "Yes for destructive organization", ""),
-        ("Research ends with?", "Carson decision + next step", ""),
+        ("Research ends with?", "you decision + next step", ""),
         ("Voice samples location?", "Reference/voice-samples.md", ""),
         ("Recipe quality bar?", "Purpose + Variables + done-when + safety", ""),
         ("Best practices article?", "cursor.com/blog/agent-best-practices", ""),
@@ -1949,7 +1949,7 @@ def flashcards():
         ("Skills context cost?", "Paid when used.", ""),
         ("Marketplace is for?", "Finding integrations.", ""),
         ("CLI tools without MCP?", "Agent can run installed CLIs when appropriate.", "gh, etc."),
-        ("Good first skills for Carson?", "Inbox triage, meeting→actions, weekend plan", ""),
+        ("Good first skills for you?", "Inbox triage, meeting→actions, weekend plan", ""),
         ("Don't over-engineer rules means?", "Add only after repeated pain.", ""),
         ("MCP docs URL?", "cursor.com/docs/mcp", ""),
     ]:
@@ -2012,7 +2012,7 @@ def flashcards():
         add("advanced", front, back, hint)
 
     for front, back, hint in [
-        ("Carson expert means?", "Modes + Variables + Recipes + rules/skills + cloud + review — teachable OS.", ""),
+        ("you expert means?", "Modes + Variables + Recipes + rules/skills + cloud + review — teachable OS.", ""),
         ("Graduation artifact?", "HOW_I_USE_CURSOR.md", ""),
         ("Weekly maintenance?", "Prune Recipes; add a win; delete unused rule.", ""),
         ("Monthly maintenance?", "MCP revisit; changelog skim; one advanced pattern.", ""),
@@ -2068,7 +2068,7 @@ def mastery_visas():
          "requirement": "Pass Habits quiz + run full ritual once", "skills": ["Morning", "Shutdown"], "day": 19},
         {"id": "power-user", "title": "Power User", "subtitle": "Patterns", "color": "#2f0e5c",
          "requirement": "Pass Advanced quiz + Plan→Build cycle", "skills": ["Plan Mode", "Review checklist"], "day": 20},
-        {"id": "cursor-expert", "title": "Cursor Expert", "subtitle": "Carson OS", "color": "#0c2a44",
+        {"id": "cursor-expert", "title": "Cursor Expert", "subtitle": "you OS", "color": "#0c2a44",
          "requirement": "Pass Capstone ≥85% + HOW_I_USE_CURSOR.md", "skills": ["Teach-back", "Maintenance loop"], "day": 21},
     ]
 
@@ -2122,7 +2122,7 @@ def gloss_terms():
         ("Secrets", "Sensitive values stored in secure settings — not in chat."),
         ("Changelog", "Official list of product changes — skim monthly."),
         ("Teach-back", "Learning check where you explain a topic in your own words."),
-        ("Personal Ops", "Carson's life/work operations system inside a Cursor folder."),
+        ("Personal Ops", "your life/work operations system inside a Cursor folder."),
         ("Life ops", "Travel, errands, family logistics, household admin."),
         ("CSV", "Simple table file Sheets/Excel can open."),
         ("One-pager", "Single-page decision or summary document."),
@@ -2256,7 +2256,7 @@ def quizzes_and_questions():
             ("You need a CS degree to benefit.", ["True", "False", "Only on Tuesdays", "Only for Ask mode"], 1, "Clear English is the skill."),
             ("Official docs live at…", ["random tweets only", "cursor.com/docs", "your Downloads folder", "IRC"], 1, "Prefer official docs when UI shifts."),
             ("Daily driver means…", ["Using Cursor once a year", "Cursor is your default for this class of tasks", "Driving Uber", "Only Tab completion"], 1, "Habit + coverage."),
-            ("Best first metaphor for Carson?", ["Compiler", "Boss/assistant", "Database index", "Kernel"], 1, "Keep it human."),
+            ("Best first metaphor for you?", ["Compiler", "Boss/assistant", "Database index", "Kernel"], 1, "Keep it human."),
             ("Variables look like…", ["[[GOAL]]", "{{GOAL}}", "((GOAL))", "##GOAL##"], 1, "Double curly braces in this course."),
             ("What should you not paste?", ["Meeting bullets", "Tone notes", "Passwords and OTP codes", "@ file names"], 2, "Never-Paste list."),
             ("Markdown files end with…", [".exe", ".md", ".psd", ".dll"], 1, "AI-friendly notes."),
@@ -2316,7 +2316,7 @@ def quizzes_and_questions():
             ("One job per message reduces…", ["Clarity", "Thrash from mixed goals", "Safety", "Variables"], 1, "Split work."),
             ("SUCCESS_CRITERIA is another way to say…", ["Password", "Done-when", "MCP", "Tab"], 1, "Observable finish line."),
             ("INPUT_DUMP is for…", ["Clean final prose only", "Messy raw notes", "API keys", "Visa colors"], 1, "Paste messy."),
-            ("REVIEW_GATE marks…", ["Decorative lines", "What Carson must personally approve", "YouTube ads", "Font size"], 1, "Human gates."),
+            ("REVIEW_GATE marks…", ["Decorative lines", "What you must personally approve", "YouTube ads", "Font size"], 1, "Human gates."),
             ("Weak prompt:", ["Goal+audience+constraints+done-when", "'help with email'", "Recipe with Variables", "@ voice samples"], 1, "Too vague."),
             ("UNKNOWN_POLICY should discourage…", ["Labeling unknowns", "Inventing sources", "Using Ask", "Saving Wins"], 1, "No fabrication."),
             ("FORMAT Variable might be…", ["A secret key", "Checklist or CSV or one-pager", "A GPU", "A branch tax"], 1, "Shape of output."),
@@ -2373,7 +2373,7 @@ def quizzes_and_questions():
             ("Week 1 path for a chore…", ["Ask→Plan?→Agent→Review→Wins", "Only Debug forever", "Paste secrets first", "Skip review"], 0, "End-to-end."),
             ("Win-sized chore is…", ["Organize entire life tonight", "One email or itinerary from chaos", "Rewrite Cursor itself", "Disable docs"], 1, "Right-sized."),
             ("Modes include…", ["Ask Plan Agent Debug", "Only Sleep mode", "Only MCP mode", "Only Visa mode"], 0, "Four gears."),
-            ("GCCD stands for…", ["Goal Context Constraints Done-when", "Git Cloud Cursor Docker", "Great Carson Car Drive", "None"], 0, "Brief."),
+            ("GCCD stands for…", ["Goal Context Constraints Done-when", "Git Cloud Cursor Docker", "Great you Car Drive", "None"], 0, "Brief."),
             ("Personal Ops must be…", ["Opened as folder", "Ignored", "Emailed weekly to strangers", "Stored as a password"], 0, "Workspace."),
             ("Never-Paste includes…", ["API keys", "Tone notes", "FORMAT variable", "Checklist bullets"], 0, "Secrets."),
             ("Recipe reusable because…", ["Variables", "It deletes files", "It hides diffs", "It bans Ask"], 0, "Blanks."),
@@ -2434,7 +2434,7 @@ def quizzes_and_questions():
             ("Writing loop starts with…", ["Bullets/dump", "Shipping unread", "Passwords", "Cloud bill"], 0, "Dump first."),
             ("Voice samples live in…", ["Reference/", "Never-Paste as secrets", "MCP only", "Visa wall"], 0, "Reference."),
             ("Email Recipe should produce…", ["Draft files — not auto-send", "Automatic send to everyone", "Card charges", "Deletes"], 0, "Draft only."),
-            ("Human edit focuses on…", ["Commitments, numbers, feelings", "Ignoring meaning", "Removing Done-when", "Adding SSNs"], 0, "Carson owns judgment."),
+            ("Human edit focuses on…", ["Commitments, numbers, feelings", "Ignoring meaning", "Removing Done-when", "Adding SSNs"], 0, "you owns judgment."),
             ("Match tone via…", ["@ voice samples / EXAMPLES", "Only 'be professional'", "Only CAPS LOCK", "Only Debug"], 0, "Show."),
             ("Meeting→actions must not…", ["Invent owners/dates", "Mark TBD", "Use Markdown", "List open questions"], 0, "No invention."),
             ("Save final + prompt to…", ["Wins/", "Trash", "OTP app", "GPU"], 0, "Library."),
@@ -2455,7 +2455,7 @@ def quizzes_and_questions():
             ("Ban this in constraints…", ["Invented citations", "Pros/cons", "Source lists", "Unknown labels"], 0, "Integrity."),
             ("Summarize multiple articles by…", ["Per-source then compare", "Mashing into one fake quote", "Deleting sources", "Ignoring disagreements"], 0, "Fair digest."),
             ("Fresh prices/news need…", ["Web tools", "Only 2012 memory", "Only flashcards", "Only Trainer"], 0, "Freshness."),
-            ("End brief with…", ["What Carson must decide", "A password", "A random meme only", "Silent auto-buy"], 0, "Decision."),
+            ("End brief with…", ["What you must decide", "A password", "A random meme only", "Silent auto-buy"], 0, "Decision."),
             ("Confidence labels help you…", ["Know what to verify", "Skip review", "Hide unknowns", "Bypass sandbox"], 0, "Epistemic hygiene."),
             ("Vendor table should include…", ["Red flags + questions", "Your SSN", "OTP codes", "Nothing actionable"], 0, "Practical."),
             ("Health/legal/money claims need…", ["Independent verification", "Blind trust", "More emojis", "Faster Accept"], 0, "Stakes."),
@@ -2493,7 +2493,7 @@ def quizzes_and_questions():
         [
             ("Separate in trip briefs…", ["Facts vs preferences", "Passwords vs OTPs to paste", "Modes vs visas only", "Fonts vs CSS"], 0, "Clarity."),
             ("Prefer for execution…", ["Checklists with owners", "Long poetic essays only", "Secret dumps", "No dates"], 0, "Checklists."),
-            ("HUMAN GATES mark…", ["Steps only Carson does", "Decorative lines", "MCP servers", "Flashcard decks"], 0, "Ownership."),
+            ("HUMAN GATES mark…", ["Steps only you does", "Decorative lines", "MCP servers", "Flashcard decks"], 0, "Ownership."),
             ("Weekly admin tip…", ["Top 7 active tasks", "40 guilt tasks", "Zero planning", "Paste card numbers"], 0, "Ruthless focus."),
             ("AI must not…", ["Auto-book silently / invent visa rules", "Draft packing lists", "List conflicts", "Ask clarifying Qs"], 0, "Gates."),
             ("Family board includes…", ["Conflicts + per-person actions", "Only one person's secrets", "Only MCP", "Only Debug logs"], 0, "Logistics."),
@@ -2534,7 +2534,7 @@ def quizzes_and_questions():
             ("A Skill is…", ["On-demand playbook", "Always-on encyclopedia rule dump", "A password", "A visa color"], 0, "Dynamic."),
             ("Slash workflows help…", ["Repeat high-frequency jobs", "Hide diffs", "Invent citations", "Bypass Never-Paste"], 0, "/name."),
             ("Rules vs Skills context…", ["Rules always; Skills when needed", "Skills always; Rules never", "Neither loads", "Only cloud"], 0, "Cost."),
-            ("Good Carson skill…", ["/weekly-review", "/paste-all-passwords", "/delete-originals-now", "/skip-review"], 0, "Useful."),
+            ("Good you skill…", ["/weekly-review", "/paste-all-passwords", "/delete-originals-now", "/skip-review"], 0, "Useful."),
             ("Learn page for customizing…", ["cursor.com/learn/customizing-agents", "only TikTok dances", "bank portal", "GPU BIOS"], 0, "Official."),
             ("Don't shove rare flows into…", ["Always-on rules", "Documented Skills", "Recipes folder", "Wins/"], 0, "Lean rules."),
             ("SKILL.md contains…", ["Steps/workflow knowledge", "Your SSN necessarily", "Only emojis", "Only visa IDs"], 0, "Playbook."),
@@ -2649,7 +2649,7 @@ def quizzes_and_questions():
         85,
         "cursor-expert",
         [
-            ("Carson's expert definition emphasizes…", ["Teachable personal OS + review", "Writing device drivers only", "Memorizing token prices only", "Never using Ask"], 0, "OS."),
+            ("your expert definition emphasizes…", ["Teachable personal OS + review", "Writing device drivers only", "Memorizing token prices only", "Never using Ask"], 0, "OS."),
             ("Graduation artifact…", ["HOW_I_USE_CURSOR.md", "A pasted password list", "An empty Inbox forever", "No Recipes"], 0, "README."),
             ("Four modes…", ["Ask Plan Agent Debug", "Only Agent", "Only Cloud", "Only Trainer"], 0, "Modes."),
             ("MCP is…", ["Tool power strip", "A sandwich mandatory", "A type of visa ink", "A flashcard back only"], 0, "MCP."),
@@ -2657,7 +2657,7 @@ def quizzes_and_questions():
             ("Variables exist to…", ["Reuse Recipes", "Store OTPs", "Replace review", "Hide DONE-WHEN"], 0, "Reuse."),
             ("Never-Paste at mastery…", ["Still mandatory", "Optional", "Reversed", "Moved into chat intentionally"], 0, "Always."),
             ("Weekly maintenance includes…", ["Prune Recipes / update rules", "Delete all Wins", "Accept-all blindly", "Invent citations"], 0, "Hygiene."),
-            ("Human gates remain…", ["On Carson", "On unsupervised Agent spends", "On flashcards", "On cheat sheet fonts"], 0, "Ownership."),
+            ("Human gates remain…", ["On you", "On unsupervised Agent spends", "On flashcards", "On cheat sheet fonts"], 0, "Ownership."),
             ("Teach-back success…", ["Friend learns your OS in ~10 minutes", "Friend receives your bank login", "Friend memorizes MCP bytecode", "Friend skips safety"], 0, "Teach."),
             ("Ops Kit quality bar includes…", ["Purpose, Variables, done-when, safety", "Vibes only", "Secrets in plaintext Recipes", "No OUTPUT_PATH ever"], 0, "Bar."),
             ("Official docs first when…", ["UI/features change", "You want outdated guesses", "You prefer leaking keys", "You skip learning"], 0, "Docs."),
@@ -2697,7 +2697,7 @@ def practice_problems():
         "File → Open Folder (or equivalent OS wording).")
     add("mode-picker", "Mode 5 scenarios", "For each: confusing PDF; new filing system; write template; weird broken tracker; brainstorm trip names — pick modes.",
         "Ask; Plan→Agent; Agent; Debug; Ask.")
-    add("mode-picker", "Default path", "Write Carson's default mode path when unsure.",
+    add("mode-picker", "Default path", "Write your default mode path when unsure.",
         "Unclear→Ask; system→Plan→Agent; small→Agent; broken→Debug.")
     add("prompt-rewrites", "Rewrite email ask", "Rewrite: 'help with email' into GCCD + Variables.",
         "Should include GOAL/AUDIENCE/TONE/CONTEXT/CONSTRAINTS/SUCCESS_CRITERIA or equivalent.")
@@ -2715,7 +2715,7 @@ def practice_problems():
         "Any right-sized chore + Ask/Plan/Agent/Review/Wins path.")
     add("week1-capstone", "Save the asset", "What two things go in Wins/?",
         "Working prompt + useful output (and optional note on best Variable).")
-    add("user-rules", "Draft 8 User Rules", "Write 8 short standing orders for Carson.",
+    add("user-rules", "Draft 8 User Rules", "Write 8 short standing orders for you.",
         "Must include safety (ask before delete), plain English, tone, markdown prefs, etc.")
     add("user-rules", "Rule vs skill", "Classify: 'warm tone' vs '/weekly-review steps'.",
         "Tone→Rule; weekly review steps→Skill/Recipe.")
@@ -2887,12 +2887,12 @@ def mnemonics():
 
 
 def daily_driver_os():
-    """Concrete 'Carson OS' blueprint variables + routines."""
+    """Concrete 'you OS' blueprint variables + routines."""
     return [
         {
             "id": 1,
-            "name": "Carson Personal OS",
-            "folderName": "Carson-Personal-Ops",
+            "name": "Cursor Personal OS",
+            "folderName": "Personal-Ops",
             "rituals": [
                 {"name": "Morning", "minutes": 20, "steps": ["Open folder", "Ask Top 3", "Run one Agent Recipe", "Queue notes"]},
                 {"name": "Midday", "minutes": 10, "steps": ["One unstick Recipe", "Park with next step written"]},

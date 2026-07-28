@@ -1,6 +1,6 @@
 # HOW_I_USE_CURSOR.md (template)
 
-Copy this into your `Carson-Personal-Ops` folder and fill it in by Day 21.
+Copy this into your `Personal-Ops` folder and fill it in by Day 21.
 
 ## 1. One-sentence purpose
 Cursor is my daily driver for: …

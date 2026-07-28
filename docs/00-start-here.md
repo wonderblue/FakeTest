@@ -1,4 +1,4 @@
-# Start here, Carson
+# Start here
 
 You do **not** need to become a programmer.
 

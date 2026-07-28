@@ -1,6 +1,6 @@
-# Carson Cursor — Comprehensive Plan
+# Cursor Daily Driver — Comprehensive Plan
 
-A 21-day recipe to make Cursor Carson’s **daily driver** and build real mastery without a tech background.
+A 21-day recipe to make Cursor your **daily driver** and build real mastery without a tech background.
 
 > Time budget: about **5–8 hours/week** (45–75 minutes most days).  
 > Graduation artifact: `HOW_I_USE_CURSOR.md` inside your Personal Ops folder.
@@ -15,13 +15,13 @@ Treat these like settings for *your* life:
 |---|---|---|
 | `{{WEEKLY_HOURS}}` | Study time available | `6` |
 | `{{PRIMARY_DEVICE}}` | Where you work | MacBook / Windows laptop |
-| `{{HOME_FOLDER}}` | Personal Ops path | `~/Carson-Personal-Ops` |
+| `{{HOME_FOLDER}}` | Personal Ops path | `~/Personal-Ops` |
 | `{{VOICE}}` | Default writing tone | warm, direct, no hype |
 | `{{TOP_LIFE_DOMAINS}}` | Where AI helps most | email, research, travel, file cleanup |
 | `{{RISK_TOLERANCE}}` | How careful with files | sandbox-only deletes |
 | `{{CLOUD_READY}}` | Use Cloud Agents? | yes after week 3 day 17 |
 | `{{MCP_CANDIDATES}}` | Apps to connect later | docs search, calendar notes, GitHub |
-| `{{HUMAN_GATES}}` | Always-you steps | payments, legal, sending email |
+| `{{HUMAN_GATES}}` | Steps only you do | payments, legal, sending email |
 | `{{SUCCESS_METRIC_30D}}` | Proof daily driver stuck | Cursor used ≥5 days/week for Top 3 chores |
 
 Fill these once in a note called `Reference/my-plan-variables.md`.
@@ -32,7 +32,7 @@ Fill these once in a note called `Reference/my-plan-variables.md`.
 
 1. Download Cursor: https://cursor.com/download  
 2. Sign in; pick a plan that supports the Agent features you need (see https://cursor.com/docs/models-and-pricing ).  
-3. Create folder `Carson-Personal-Ops` with:
+3. Create folder `Personal-Ops` with:
 
 ```text
 Inbox/
@@ -98,7 +98,7 @@ Archive/
 
 ## Part 3 — Mode picker (print this)
 
-| Mode | Plain English | Carson examples |
+| Mode | Plain English | Everyday examples |
 |---|---|---|
 | **Ask** | Explain / compare / brainstorm without changing files | Confusing PDF; “what are my options?” |
 | **Plan** | Design first; you approve | New filing system; family logistics board |
@@ -111,7 +111,7 @@ Official comparison: https://cursor.com/help/ai-features/agent
 
 ---
 
-## Part 4 — The Carson briefing formula (GCCD)
+## Part 4 — Your briefing formula (GCCD)
 
 ```text
 GOAL: {{GOAL}}
@@ -183,13 +183,13 @@ Core standing orders to consider:
 6. **Cloud Agents** for async jobs  
 7. Only then: custom scripts/apps if you still need them  
 
-Most of Carson’s wins live on rungs 1–4.
+Most of your wins live on rungs 1–4.
 
 ---
 
 ## Part 8 — Mastery definition (honest)
 
-Carson is a **Cursor tool expert** when he can:
+You are a **Cursor tool expert** when you can:
 
 - Pick modes without hesitation  
 - Brief with Variables in under 2 minutes  

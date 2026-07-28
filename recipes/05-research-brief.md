@@ -24,7 +24,7 @@ FORMAT:
 - Options compared (table if helpful)
 - Pros/cons
 - Risks
-- Recommendation + what Carson must decide
+- Recommendation + what you must decide
 - Sources list
 SUCCESS_CRITERIA: {{SUCCESS_CRITERIA}}
 ```

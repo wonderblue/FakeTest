@@ -1,4 +1,4 @@
-const STORAGE_KEY = "carson-cursor-daily-driver-v1";
+const STORAGE_KEY = "cursor-daily-driver-v1";
 
 const state = {
   db: null,
@@ -122,7 +122,7 @@ function renderHome() {
 
   return `
     <section class="hero">
-      <h1 class="hero__brand">Carson Cursor</h1>
+      <h1 class="hero__brand">Cursor Daily Driver</h1>
       <p class="hero__headline">${escapeHtml(plan.tagline)}</p>
       <p class="hero__support">${escapeHtml(plan.audience)} About ${escapeHtml(plan.weeklyHours)}.</p>
       <div class="hero__cta">
@@ -138,7 +138,7 @@ function renderHome() {
     </section>
 
     <section class="panel panel--solid">
-      <h2 style="font-family:var(--font-display);margin-top:0">How Carson masters Cursor</h2>
+      <h2 style="font-family:var(--font-display);margin-top:0">How this mastery path works</h2>
       <div class="grid grid--2">
         <div>
           <p class="tag">Method</p>
@@ -307,7 +307,7 @@ function renderRecipes(params) {
   return `
     <p class="tag">Recipes</p>
     <h1 class="page-title">Copy-paste workflows</h1>
-    <p class="lede">These are Carson's meal-kit prompts. Open one, fill Variables, paste into Cursor (right mode), review the result, save winners to Wins/.</p>
+    <p class="lede">These are your meal-kit prompts. Open one, fill Variables, paste into Cursor (right mode), review the result, save winners to Wins/.</p>
     <div class="panel">
       <label for="catSelect"><strong>Category</strong></label>
       <select id="catSelect" class="search" style="margin-top:.4rem">

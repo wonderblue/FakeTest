@@ -16,7 +16,7 @@ MODE: Ask
 GOAL: {{GOAL}}
 CONTEXT: {{CONTEXT}}
 FILES: {{FILES}}
-AUDIENCE: Carson — non-technical
+AUDIENCE: me — non-technical
 CONSTRAINTS:
 - No jargon without a plain-English translation in parentheses
 - Do not invent facts

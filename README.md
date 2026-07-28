@@ -1,6 +1,6 @@
-# Carson Cursor Daily Driver
+# Cursor Daily Driver
 
-A **21-day, spoon-fed mastery path** so a non-technical person (Carson) can make **Cursor his daily driver** for personal work, web activity, and automation — without becoming a programmer.
+A **21-day, spoon-fed mastery path** so a non-technical person can make **Cursor their daily driver** for personal work, web activity, and automation — without becoming a programmer.
 
 Built as rich learning data in `db.json` (compatible with [my-json-server](https://my-json-server.typicode.com/)) plus a local interactive study app.
 
@@ -36,7 +36,7 @@ Progress (quiz scores, visas, flashcard marks, completed days) saves in your bro
 
 Start here if you want the narrative playbook (not only the app):
 
-1. [docs/00-start-here-carson.md](docs/00-start-here-carson.md) — who this is for & how to use it  
+1. [docs/00-start-here-cursor.md](docs/00-start-here-cursor.md) — who this is for & how to use it  
 2. [docs/01-comprehensive-plan.md](docs/01-comprehensive-plan.md) — the full 21-day plan + OS blueprint  
 3. [docs/02-variables-and-recipes.md](docs/02-variables-and-recipes.md) — Variables + Recipe catalog  
 4. [docs/03-resources-videos-audio.md](docs/03-resources-videos-audio.md) — docs / video / audio exploration pack  

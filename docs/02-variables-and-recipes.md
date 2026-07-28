@@ -22,12 +22,12 @@ Spoon-feeding kit: fill blanks → paste into Cursor → review → save winners
 | `{{PRIORITY}}` | Tradeoff preference | Clarity over cleverness |
 | `{{TOOLS}}` | Allowed integrations | Web search OK; don’t post to Slack |
 | `{{BUDGET}}` | Money ceiling | Under $1,800 excl. booked flights |
-| `{{PEOPLE}}` | Who’s involved | Carson + Sam + two kids |
+| `{{PEOPLE}}` | Who’s involved | you + Sam + two kids |
 | `{{LOCATION}}` | Place limits | Walkable downtown |
 | `{{DATES}}` | Time window | Oct 10 evening → Oct 14 noon |
 | `{{RISK_TOLERANCE}}` | Carefulness | Sandbox moves only |
 | `{{UNKNOWN_POLICY}}` | When unsure | List unknowns; never fabricate sources |
-| `{{REVIEW_GATE}}` | Needs Carson’s eyes | Payment promises / legal claims |
+| `{{REVIEW_GATE}}` | Needs your eyes | Payment promises / legal claims |
 | `{{INPUT_DUMP}}` | Messy paste zone | Raw bullets |
 | `{{OUTPUT_PATH}}` | Where to save | `Projects/.../draft.md` |
 | `{{LANGUAGE}}` | Output language | US English |
