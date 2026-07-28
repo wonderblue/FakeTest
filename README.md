@@ -15,7 +15,8 @@ Built as rich learning data in `db.json` (compatible with [my-json-server](https
 | Practice problems | 180 | Classify, journalize, adjust, capstone |
 | Mastery Visas | 10 | Competence “passport” stamps |
 | Debit/Credit trainer | 40 prompts | Speed drills for left/right rules |
-| Glossary + cheat sheets | 70 + 8 | Quick reference |
+| Journal Entry Builder | 24 scenarios | Pick the debit & credit accounts yourself |
+| Glossary + cheat sheets | 70 + 8 | Quick reference (printable) |
 
 Focus areas: **account types**, **debits & credits (DEA-LER)**, journal patterns, accrual timing, the accounting cycle, statements, adjusting/closing, and basic finance ratios / cash-flow sense.
 
@@ -29,7 +30,7 @@ python3 -m http.server 8080
 
 Open [http://localhost:8080](http://localhost:8080).
 
-Progress (quiz scores, visas, flashcard marks, completed days) saves in your browser via `localStorage`.
+Progress (quiz scores, visas, flashcard marks, completed days) saves in your browser via `localStorage`. From **Reference** you can print the cheat sheets or export/reset your progress.
 
 ## Use the data API
 

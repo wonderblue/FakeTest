@@ -1899,6 +1899,100 @@ def trainer_prompts():
     return rows
 
 
+def journal_scenarios():
+    """Scenarios for the interactive Journal Entry Builder."""
+    accounts = [
+        "Cash",
+        "Accounts Receivable",
+        "Supplies",
+        "Prepaid Rent",
+        "Prepaid Insurance",
+        "Inventory",
+        "Equipment",
+        "Accumulated Depreciation",
+        "Accounts Payable",
+        "Notes Payable",
+        "Wages Payable",
+        "Interest Payable",
+        "Unearned Revenue",
+        "Owner Capital",
+        "Owner Drawings",
+        "Service Revenue",
+        "Sales Revenue",
+        "Rent Expense",
+        "Wages Expense",
+        "Utilities Expense",
+        "Insurance Expense",
+        "Supplies Expense",
+        "Depreciation Expense",
+        "Interest Expense",
+    ]
+    scenarios = [
+        ("Owner invests $15,000 cash to start the business.", "Cash", "Owner Capital", 15000,
+         "Asset up (debit Cash); owner claim up (credit Capital)."),
+        ("Borrow $8,000 from the bank on a note.", "Cash", "Notes Payable", 8000,
+         "Asset up; liability up."),
+        ("Buy $650 of supplies on account.", "Supplies", "Accounts Payable", 650,
+         "Asset up; liability up. Supplies are an asset until used."),
+        ("Pay the $650 owed for supplies.", "Accounts Payable", "Cash", 650,
+         "Liability down (debit AP); asset down (credit Cash)."),
+        ("Perform services and collect $2,400 cash.", "Cash", "Service Revenue", 2400,
+         "Asset up; revenue up (credit)."),
+        ("Bill a client $1,900 for completed services.", "Accounts Receivable", "Service Revenue", 1900,
+         "Earned now — recognize revenue even though cash comes later."),
+        ("Client pays the $1,900 previously billed.", "Cash", "Accounts Receivable", 1900,
+         "Swap one asset for another. No new revenue — already recognized."),
+        ("Pay $1,200 rent for the current month.", "Rent Expense", "Cash", 1200,
+         "Benefit consumed now → expense (debit)."),
+        ("Pay $3,600 rent covering the next 6 months.", "Prepaid Rent", "Cash", 3600,
+         "Future benefit → asset, not expense yet."),
+        ("One month of that prepaid rent expires.", "Rent Expense", "Prepaid Rent", 600,
+         "Adjusting entry: move used portion from asset to expense."),
+        ("Receive a $2,000 advance for work to be done next month.", "Cash", "Unearned Revenue", 2000,
+         "Cash before earning → liability, not revenue."),
+        ("Complete half of the advance work ($1,000).", "Unearned Revenue", "Service Revenue", 1000,
+         "Earn it → reduce the liability, recognize revenue."),
+        ("Pay employees $1,750 in wages for work this period.", "Wages Expense", "Cash", 1750,
+         "Cost of labor consumed → expense."),
+        ("Accrue $900 of wages earned but unpaid at month-end.", "Wages Expense", "Wages Payable", 900,
+         "Incurred but unpaid → expense plus payable. No cash yet."),
+        ("Buy $5,000 of equipment, paying cash.", "Equipment", "Cash", 5000,
+         "Long-lived asset, not an expense — cost allocated later via depreciation."),
+        ("Record $250 monthly depreciation on equipment.", "Depreciation Expense", "Accumulated Depreciation", 250,
+         "Credit the contra-asset, not Equipment directly."),
+        ("Owner withdraws $500 cash for personal use.", "Owner Drawings", "Cash", 500,
+         "Drawings (debit-normal) reduce equity; not a business expense."),
+        ("Receive the $180 utility bill for this month; will pay later.", "Utilities Expense", "Accounts Payable", 180,
+         "Expense incurred now; liability until paid."),
+        ("Accrue $75 of interest owed on the bank note.", "Interest Expense", "Interest Payable", 75,
+         "Interest accumulates with time — accrue even before payment."),
+        ("Pay $960 for a 12-month insurance policy starting today.", "Prepaid Insurance", "Cash", 960,
+         "Future coverage → asset. Expense it monthly as it expires."),
+        ("One month of the insurance policy expires.", "Insurance Expense", "Prepaid Insurance", 80,
+         "Adjusting entry moves 1/12 of the premium to expense."),
+        ("A count shows $220 of supplies were used this period.", "Supplies Expense", "Supplies", 220,
+         "Used portion becomes expense; remainder stays an asset."),
+        ("Sell goods for $3,000 cash (record the sale only).", "Cash", "Sales Revenue", 3000,
+         "Merchandiser sale — revenue side. (COGS entry is separate.)"),
+        ("Buy $1,400 of inventory on account.", "Inventory", "Accounts Payable", 1400,
+         "Goods for resale are an asset until sold."),
+    ]
+    return {
+        "accounts": accounts,
+        "scenarios": [
+            {
+                "id": i + 1,
+                "narrative": text,
+                "debit": dr,
+                "credit": cr,
+                "amount": amt,
+                "explain": why,
+            }
+            for i, (text, dr, cr, amt, why) in enumerate(scenarios)
+        ],
+    }
+
+
 def work_plan_overview():
     return {
         "id": 1,
@@ -1984,6 +2078,7 @@ def mnemonics():
 
 def main():
     quiz_meta, questions = quizzes()
+    jb = journal_scenarios()
     db = {
         "meta": [
             {
@@ -2008,6 +2103,9 @@ def main():
         "masteryVisas": mastery_visas(),
         "trainerPrompts": trainer_prompts(),
         "mnemonics": mnemonics(),
+        "journalBuilder": [
+            {"id": 1, "accounts": jb["accounts"], "scenarios": jb["scenarios"]}
+        ],
     }
 
     out = ROOT / "db.json"

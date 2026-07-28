@@ -619,6 +619,45 @@ code {
   }
 }
 
+@media print {
+  .atmosphere,
+  .topbar,
+  .site-footer,
+  .no-print,
+  .search,
+  #glossaryList {
+    display: none !important;
+  }
+
+  body {
+    background: #fff;
+    color: #000;
+  }
+
+  .app {
+    width: 100%;
+    padding: 0;
+  }
+
+  .page-title,
+  .lede,
+  .tag {
+    color: #000 !important;
+  }
+
+  .print-area {
+    display: block;
+  }
+
+  .print-area .panel {
+    break-inside: avoid;
+    border: 1px solid #999;
+    background: #fff;
+    margin: 0 0 0.75rem;
+    box-shadow: none;
+  }
+}
+
 @media (max-width: 860px) {
   .grid--2,
   .grid--3 {

@@ -7564,5 +7564,230 @@
       "title": "OIF for cash",
       "body": "Operating, Investing, Financing — three doors for every cash movement."
     }
+  ],
+  "journalBuilder": [
+    {
+      "id": 1,
+      "accounts": [
+        "Cash",
+        "Accounts Receivable",
+        "Supplies",
+        "Prepaid Rent",
+        "Prepaid Insurance",
+        "Inventory",
+        "Equipment",
+        "Accumulated Depreciation",
+        "Accounts Payable",
+        "Notes Payable",
+        "Wages Payable",
+        "Interest Payable",
+        "Unearned Revenue",
+        "Owner Capital",
+        "Owner Drawings",
+        "Service Revenue",
+        "Sales Revenue",
+        "Rent Expense",
+        "Wages Expense",
+        "Utilities Expense",
+        "Insurance Expense",
+        "Supplies Expense",
+        "Depreciation Expense",
+        "Interest Expense"
+      ],
+      "scenarios": [
+        {
+          "id": 1,
+          "narrative": "Owner invests $15,000 cash to start the business.",
+          "debit": "Cash",
+          "credit": "Owner Capital",
+          "amount": 15000,
+          "explain": "Asset up (debit Cash); owner claim up (credit Capital)."
+        },
+        {
+          "id": 2,
+          "narrative": "Borrow $8,000 from the bank on a note.",
+          "debit": "Cash",
+          "credit": "Notes Payable",
+          "amount": 8000,
+          "explain": "Asset up; liability up."
+        },
+        {
+          "id": 3,
+          "narrative": "Buy $650 of supplies on account.",
+          "debit": "Supplies",
+          "credit": "Accounts Payable",
+          "amount": 650,
+          "explain": "Asset up; liability up. Supplies are an asset until used."
+        },
+        {
+          "id": 4,
+          "narrative": "Pay the $650 owed for supplies.",
+          "debit": "Accounts Payable",
+          "credit": "Cash",
+          "amount": 650,
+          "explain": "Liability down (debit AP); asset down (credit Cash)."
+        },
+        {
+          "id": 5,
+          "narrative": "Perform services and collect $2,400 cash.",
+          "debit": "Cash",
+          "credit": "Service Revenue",
+          "amount": 2400,
+          "explain": "Asset up; revenue up (credit)."
+        },
+        {
+          "id": 6,
+          "narrative": "Bill a client $1,900 for completed services.",
+          "debit": "Accounts Receivable",
+          "credit": "Service Revenue",
+          "amount": 1900,
+          "explain": "Earned now — recognize revenue even though cash comes later."
+        },
+        {
+          "id": 7,
+          "narrative": "Client pays the $1,900 previously billed.",
+          "debit": "Cash",
+          "credit": "Accounts Receivable",
+          "amount": 1900,
+          "explain": "Swap one asset for another. No new revenue — already recognized."
+        },
+        {
+          "id": 8,
+          "narrative": "Pay $1,200 rent for the current month.",
+          "debit": "Rent Expense",
+          "credit": "Cash",
+          "amount": 1200,
+          "explain": "Benefit consumed now → expense (debit)."
+        },
+        {
+          "id": 9,
+          "narrative": "Pay $3,600 rent covering the next 6 months.",
+          "debit": "Prepaid Rent",
+          "credit": "Cash",
+          "amount": 3600,
+          "explain": "Future benefit → asset, not expense yet."
+        },
+        {
+          "id": 10,
+          "narrative": "One month of that prepaid rent expires.",
+          "debit": "Rent Expense",
+          "credit": "Prepaid Rent",
+          "amount": 600,
+          "explain": "Adjusting entry: move used portion from asset to expense."
+        },
+        {
+          "id": 11,
+          "narrative": "Receive a $2,000 advance for work to be done next month.",
+          "debit": "Cash",
+          "credit": "Unearned Revenue",
+          "amount": 2000,
+          "explain": "Cash before earning → liability, not revenue."
+        },
+        {
+          "id": 12,
+          "narrative": "Complete half of the advance work ($1,000).",
+          "debit": "Unearned Revenue",
+          "credit": "Service Revenue",
+          "amount": 1000,
+          "explain": "Earn it → reduce the liability, recognize revenue."
+        },
+        {
+          "id": 13,
+          "narrative": "Pay employees $1,750 in wages for work this period.",
+          "debit": "Wages Expense",
+          "credit": "Cash",
+          "amount": 1750,
+          "explain": "Cost of labor consumed → expense."
+        },
+        {
+          "id": 14,
+          "narrative": "Accrue $900 of wages earned but unpaid at month-end.",
+          "debit": "Wages Expense",
+          "credit": "Wages Payable",
+          "amount": 900,
+          "explain": "Incurred but unpaid → expense plus payable. No cash yet."
+        },
+        {
+          "id": 15,
+          "narrative": "Buy $5,000 of equipment, paying cash.",
+          "debit": "Equipment",
+          "credit": "Cash",
+          "amount": 5000,
+          "explain": "Long-lived asset, not an expense — cost allocated later via depreciation."
+        },
+        {
+          "id": 16,
+          "narrative": "Record $250 monthly depreciation on equipment.",
+          "debit": "Depreciation Expense",
+          "credit": "Accumulated Depreciation",
+          "amount": 250,
+          "explain": "Credit the contra-asset, not Equipment directly."
+        },
+        {
+          "id": 17,
+          "narrative": "Owner withdraws $500 cash for personal use.",
+          "debit": "Owner Drawings",
+          "credit": "Cash",
+          "amount": 500,
+          "explain": "Drawings (debit-normal) reduce equity; not a business expense."
+        },
+        {
+          "id": 18,
+          "narrative": "Receive the $180 utility bill for this month; will pay later.",
+          "debit": "Utilities Expense",
+          "credit": "Accounts Payable",
+          "amount": 180,
+          "explain": "Expense incurred now; liability until paid."
+        },
+        {
+          "id": 19,
+          "narrative": "Accrue $75 of interest owed on the bank note.",
+          "debit": "Interest Expense",
+          "credit": "Interest Payable",
+          "amount": 75,
+          "explain": "Interest accumulates with time — accrue even before payment."
+        },
+        {
+          "id": 20,
+          "narrative": "Pay $960 for a 12-month insurance policy starting today.",
+          "debit": "Prepaid Insurance",
+          "credit": "Cash",
+          "amount": 960,
+          "explain": "Future coverage → asset. Expense it monthly as it expires."
+        },
+        {
+          "id": 21,
+          "narrative": "One month of the insurance policy expires.",
+          "debit": "Insurance Expense",
+          "credit": "Prepaid Insurance",
+          "amount": 80,
+          "explain": "Adjusting entry moves 1/12 of the premium to expense."
+        },
+        {
+          "id": 22,
+          "narrative": "A count shows $220 of supplies were used this period.",
+          "debit": "Supplies Expense",
+          "credit": "Supplies",
+          "amount": 220,
+          "explain": "Used portion becomes expense; remainder stays an asset."
+        },
+        {
+          "id": 23,
+          "narrative": "Sell goods for $3,000 cash (record the sale only).",
+          "debit": "Cash",
+          "credit": "Sales Revenue",
+          "amount": 3000,
+          "explain": "Merchandiser sale — revenue side. (COGS entry is separate.)"
+        },
+        {
+          "id": 24,
+          "narrative": "Buy $1,400 of inventory on account.",
+          "debit": "Inventory",
+          "credit": "Accounts Payable",
+          "amount": 1400,
+          "explain": "Goods for resale are an asset until sold."
+        }
+      ]
+    }
   ]
 }

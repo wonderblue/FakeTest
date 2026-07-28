@@ -146,8 +146,9 @@ function renderHome() {
         </div>
         <div>
           <h3 style="font-family:var(--font-display);margin:.2rem 0">Debits & credits</h3>
-          <p>DEA-LER on loop. Left and right — not good and bad.</p>
+          <p>DEA-LER on loop. Left and right — not good and bad. Then build full entries.</p>
           <a class="btn btn--small" href="#/flashcards?deck=debit-credit" data-link>Open deck</a>
+          <a class="btn btn--small btn--ghost" href="#/builder" data-link style="color:var(--ink);border-color:var(--line)">Journal Builder</a>
         </div>
         <div>
           <h3 style="font-family:var(--font-display);margin:.2rem 0">Mastery visas</h3>
@@ -589,6 +590,96 @@ function initTrainer() {
   show();
 }
 
+function renderJournalBuilder() {
+  const jb = state.db.journalBuilder[0];
+  return `
+    <p class="tag">Journal Entry Builder</p>
+    <h1 class="page-title">Build the entry</h1>
+    <p class="lede">Read the narrative, then pick the debit account and the credit account. ${jb.scenarios.length} scenarios covering the core patterns, prepaids, accruals, and adjustments. Best streak saved: ${state.progress.journalBest || 0}.</p>
+    <div class="panel panel--solid" id="jbRoot">
+      <p class="tag" id="jbStats">Score 0 · Streak 0</p>
+      <p class="trainer-prompt" id="jbNarrative">Loading…</p>
+      <div class="grid grid--2">
+        <div>
+          <label for="jbDebit"><strong>Debit</strong></label>
+          <select id="jbDebit" class="search" style="margin-top:.4rem"></select>
+        </div>
+        <div>
+          <label for="jbCredit"><strong>Credit</strong></label>
+          <select id="jbCredit" class="search" style="margin-top:.4rem"></select>
+        </div>
+      </div>
+      <div style="margin-top:1rem;display:flex;gap:.6rem;flex-wrap:wrap">
+        <button class="btn" id="jbCheck">Check entry</button>
+        <button class="btn btn--ghost" id="jbSkip">Skip</button>
+      </div>
+      <p id="jbFeedback" class="muted" style="margin-top:1rem;min-height:2.4em"></p>
+    </div>
+  `;
+}
+
+function initJournalBuilder() {
+  const jb = state.db.journalBuilder[0];
+  const scenarios = [...jb.scenarios];
+  for (let a = scenarios.length - 1; a > 0; a--) {
+    const b = Math.floor(Math.random() * (a + 1));
+    [scenarios[a], scenarios[b]] = [scenarios[b], scenarios[a]];
+  }
+
+  let i = 0;
+  let score = 0;
+  let streak = 0;
+  let answered = 0;
+
+  const optionHtml = ['<option value="">— choose account —</option>']
+    .concat(jb.accounts.map((a) => `<option value="${escapeHtml(a)}">${escapeHtml(a)}</option>`))
+    .join("");
+  $("#jbDebit").innerHTML = optionHtml;
+  $("#jbCredit").innerHTML = optionHtml;
+
+  function show() {
+    const s = scenarios[i % scenarios.length];
+    $("#jbNarrative").textContent = `${s.narrative} ($${s.amount.toLocaleString()})`;
+    $("#jbDebit").value = "";
+    $("#jbCredit").value = "";
+    $("#jbFeedback").textContent = " ";
+    $("#jbStats").textContent = `Score ${score}/${answered} · Streak ${streak} · Best ${state.progress.journalBest || 0}`;
+  }
+
+  $("#jbCheck").addEventListener("click", () => {
+    const s = scenarios[i % scenarios.length];
+    const dr = $("#jbDebit").value;
+    const cr = $("#jbCredit").value;
+    if (!dr || !cr) {
+      $("#jbFeedback").textContent = "Pick both a debit and a credit account first.";
+      return;
+    }
+    answered += 1;
+    const ok = dr === s.debit && cr === s.credit;
+    if (ok) {
+      score += 1;
+      streak += 1;
+      state.progress.journalBest = Math.max(state.progress.journalBest || 0, streak);
+      saveProgress();
+      $("#jbFeedback").textContent = `Correct — Dr ${s.debit} / Cr ${s.credit}. ${s.explain}`;
+      if (streak >= 15) maybeEarnVisa("journal-entries", "builder milestone");
+    } else {
+      streak = 0;
+      $("#jbFeedback").textContent = `Not quite. Correct: Dr ${s.debit} ${s.amount.toLocaleString()} / Cr ${s.credit} ${s.amount.toLocaleString()}. ${s.explain}`;
+    }
+    i += 1;
+    setTimeout(show, 2600);
+    $("#jbStats").textContent = `Score ${score}/${answered} · Streak ${streak} · Best ${state.progress.journalBest || 0}`;
+  });
+
+  $("#jbSkip").addEventListener("click", () => {
+    i += 1;
+    show();
+  });
+
+  show();
+}
+
 function renderVisas() {
   const earned = new Set(state.progress.earnedVisas);
   return `
@@ -676,7 +767,12 @@ function renderReference() {
     <p class="tag">Reference</p>
     <h1 class="page-title">Cheat sheets & glossary</h1>
     <p class="lede">Keep these open while journaling. Search the glossary when a term feels fuzzy.</p>
-    <div class="grid grid--2">
+    <div style="display:flex;gap:.6rem;flex-wrap:wrap;margin-bottom:1rem" class="no-print">
+      <button class="btn btn--small" id="printSheets">Print cheat sheets</button>
+      <button class="btn btn--ghost btn--small" id="exportProgress">Export progress</button>
+      <button class="btn btn--ghost btn--small" id="resetProgress">Reset progress</button>
+    </div>
+    <div class="grid grid--2 print-area">
       ${state.db.cheatSheets
         .map(
           (c) => `
@@ -718,6 +814,27 @@ function initReference() {
 
   $("#glossarySearch").addEventListener("input", (e) => paint(e.target.value));
   paint();
+
+  $("#printSheets").addEventListener("click", () => window.print());
+
+  $("#exportProgress").addEventListener("click", () => {
+    const blob = new Blob([JSON.stringify(state.progress, null, 2)], { type: "application/json" });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement("a");
+    a.href = url;
+    a.download = "ledger-reset-progress.json";
+    a.click();
+    URL.revokeObjectURL(url);
+    toast("Progress exported");
+  });
+
+  $("#resetProgress").addEventListener("click", () => {
+    if (!confirm("Reset all local progress (quiz scores, visas, flashcard marks)?")) return;
+    state.progress = defaultProgress();
+    saveProgress();
+    toast("Progress reset");
+    render();
+  });
 }
 
 function bindPlanToggles() {
@@ -771,6 +888,9 @@ async function render() {
   } else if (path === "/trainer") {
     html = renderTrainer();
     after = initTrainer;
+  } else if (path === "/builder") {
+    html = renderJournalBuilder();
+    after = initJournalBuilder;
   } else if (path === "/visas") {
     html = renderVisas();
   } else if (path === "/practice") {
